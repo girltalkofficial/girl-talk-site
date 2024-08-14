@@ -6,9 +6,7 @@ type modaltypes={
     children?:React.ReactNode;
 }
 
-const sModal: React.FC<modaltypes> = ({isvisible, onClose, children}) =>{
-    if(!isvisible) return null;
-
+const useSModal: React.FC<modaltypes> = ({isvisible, onClose, children}) =>{
     React.useEffect(() => {
         const closeOnEscapePressed = (e: KeyboardEvent) => {
           if (e.key === "Escape") {
@@ -16,9 +14,11 @@ const sModal: React.FC<modaltypes> = ({isvisible, onClose, children}) =>{
           }
         };
         window.addEventListener("keydown", closeOnEscapePressed);
-        return () =>
-          window.removeEventListener("keydown", closeOnEscapePressed);
-      }, []);
+        return () => window.removeEventListener("keydown", closeOnEscapePressed);
+      }, [onClose]);
+    
+      if (!isvisible) return null;
+
 
     return(
         <div className="fixed inset-0 bg-pink-400 bg-opacity-25 backdrop-blur-sm flex justify-center items-center" >
@@ -34,4 +34,4 @@ const sModal: React.FC<modaltypes> = ({isvisible, onClose, children}) =>{
     )
 }
 
-export default sModal;
+export default useSModal;

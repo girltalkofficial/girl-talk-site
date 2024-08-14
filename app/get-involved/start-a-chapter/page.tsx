@@ -80,7 +80,7 @@ const startachapter = () => {
                         Meet with 5 or more members for at least 35 hours a year (3 times a month, 1 hour each meeting)
                         </li>
                         <li>
-                        Alternate between our women’s rights course, feminine hygiene guide, and conversation cards
+                        Alternate between our women&apos;s rights course, feminine hygiene guide, and conversation cards
                         </li>
                         <li>
                         Organise interaction, education, and service events
@@ -100,7 +100,6 @@ const startachapter = () => {
                     Follow a 4-step online process with no interview or waiting period
                     </p>
                     <ul className = " pl-5 pt-3 font-normal list-decimal text-white">
-                        {/*numbered list*/}
                         <li>
                         Review chapter lead induction materials: Begin by watching our comprehensive chapter leader
 induction video to familiarise yourself with the responsibilities and expectations of the role.
@@ -112,7 +111,7 @@ covered in the induction materials.
                         </li>
                         <li>
                         Tell us about you: Provide a 90-second video or 200-word written response outlining your
-motivation for starting a chapter and your ideas for furthering our organisation's mission within
+motivation for starting a chapter and your ideas for furthering our organisation&apos;s mission within
 your local community.
                         </li>
                         <li>
@@ -141,7 +140,7 @@ personal and contact details.
                         Access to a Google folder with:
                         </p>
                         <ul className = " font-normal pl-5 pt-3 list-decimal text-white">
-                            {/*numbered list*/}
+
                             <li>
                             Our entire core curriculum
                             </li>
@@ -164,7 +163,7 @@ personal and contact details.
                         Support from the executive team, including:
                         </p>
                         <ul className = "font-normal pl-5 pt-3 list-decimal text-white">
-                            {/*numbered list*/}
+
                             <li>
                             Meetings for advice upon request
                             </li>
@@ -191,10 +190,9 @@ personal and contact details.
      
         </main>
     
-        //learn more about our curriculum...link to our work page
         <Footer/>
         </>
-        //20 min video and form away
+  
     )
 }
 export default startachapter

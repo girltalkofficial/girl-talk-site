@@ -8,23 +8,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-const ourwork = () => {
+const useOurwork = () => {
     const[showModal,setShowModal] = useState(false);
     const[showModal2,setShowModal2] = useState(false);
     const[showModal3,setShowModal3] = useState(false);
-    const[showModalb1,setShowModalb1] = useState(false);
-    const[showModalb2,setShowModalb2] = useState(false);
-    const[showModalb3,setShowModalb3] = useState(false);
-    const[showModalb4,setShowModalb4] = useState(false);
-    const[showModalm1,setShowModalm1] = useState(false);
-    const[showModalm2,setShowModalm2] = useState(false);
-    const[showModalm3,setShowModalm3] = useState(false);
-    const[showModalm4,setShowModalm4] = useState(false);
-    const[showModals1,setShowModals1] = useState(false);
-    const[showModals2,setShowModals2] = useState(false);
-    const[showModals3,setShowModals3] = useState(false);
-    const[showModals4,setShowModals4] = useState(false);
-    const[showModals5,setShowModals5] = useState(false);
+
 
     const settings = {
       dots: true,
@@ -195,7 +183,7 @@ const ourwork = () => {
                         Beauty Standards Through the Decades
                         </p>
                         <p className="" >
-                        A History of Women's Reproductive Rights
+                        A History of Women&apos;s Reproductive Rights
                         </p>
                 </div>
                 </div>
@@ -308,4 +296,4 @@ const ourwork = () => {
         </>
     )
 }
-export default ourwork
+export default useOurwork

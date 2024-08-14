@@ -132,7 +132,7 @@ export default function Home() {
               <p className="mb-5 text-2xl ">Girl Talk started as a small, student-led club at Chinese International School, Hong Kong, on November
 17th, 2022. Our first club meeting? Yielded a total of 3 attendees. Over the years, we grew into a family of
 15, aged 12-14, and an executive team of 6. Though our club has stayed small and tight-knit, our outreach
-doesn’t end there; we frequently organise fundraisers and events for the wider school community to involve
+doesn&apos;t end there; we frequently organise fundraisers and events for the wider school community to involve
 those without the chance to join our meetings.
               </p>
             </div>
@@ -159,11 +159,11 @@ those without the chance to join our meetings.
                 <p className="mt-10">
                 Our core belief? That “girl talk” is more than trivial conversation. That moments of connection and
 understanding between girls build the strength needed to fight back. We champion this belief by teaching
-our core curriculum, complete with a women's history course, beginner guides to feminine hygiene, and 100
+our core curriculum, complete with a women&apos;s history course, beginner guides to feminine hygiene, and 100
 conversation cards for teens, in chapters across the world. Here in Hong Kong, we provide period care to
-those in need, working with LUÜNA – a women-led, B Corp-certified period care company – to supply
-refugees with pads year-round. Because it’s never just girl talk: it’s creating a network of educated,
-like-minded, and community-service-oriented advocates determined to change the world – one conversation
+those in need, working with LUÜNA - a women-led, B Corp-certified period care company - to supply
+refugees with pads year-round. Because it&apos;s never just girl talk: it&apos;s creating a network of educated,
+like-minded, and community-service-oriented advocates determined to change the world - one conversation
 at a time.
                 </p>
               </div>

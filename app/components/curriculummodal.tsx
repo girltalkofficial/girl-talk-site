@@ -5,20 +5,19 @@ type modaltypes={
     onClose:any;
     children?:React.ReactNode;
 }
-
-const cModal: React.FC<modaltypes> = ({isvisible, onClose, children}) =>{
-    if(!isvisible) return null;
-
-    React.useEffect(() => {
-        const closeOnEscapePressed = (e: KeyboardEvent) => {
-          if (e.key === "Escape") {
-            onClose();
-          }
-        };
-        window.addEventListener("keydown", closeOnEscapePressed);
-        return () =>
-          window.removeEventListener("keydown", closeOnEscapePressed);
-      }, []);
+  
+      const useCModal: React.FC<modaltypes> = ({ isvisible, onClose, children }) => {
+        React.useEffect(() => {
+          const closeOnEscapePressed = (e: KeyboardEvent) => {
+            if (e.key === "Escape") {
+              onClose();
+            }
+          };
+          window.addEventListener("keydown", closeOnEscapePressed);
+          return () => window.removeEventListener("keydown", closeOnEscapePressed);
+        }, [onClose]);
+      
+        if (!isvisible) return null;
 
     return(
         <div className="fixed inset-0 bg-pink-400 bg-opacity-25 backdrop-blur-sm flex justify-center items-center" >
@@ -34,4 +33,4 @@ const cModal: React.FC<modaltypes> = ({isvisible, onClose, children}) =>{
     )
 }
 
-export default cModal;
+export default useCModal;
