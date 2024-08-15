@@ -34,6 +34,10 @@ const Navbarhome = () =>
         {
           name:"Get In Touch",
           link:"/get-in-touch"
+        },
+        {
+          name:"Start a Chapter",
+          link:"/get-involved/start-a-chapter"
         }
       ]
       const involved = [
@@ -64,21 +68,7 @@ const Navbarhome = () =>
               </button>
             </Link>
           ))}
-           <Dropdown  
-           classNames={{
-            base: "before:bg-default-200", 
-            content: "py-0 px--2 border border-size-3 ",
-          }}>
-      <DropdownTrigger >
-        <button  className = "focus-visible:outline-none bg-white rounded-none text-pink-400  py-[8px] hover:font-bold">
-          Get Involved
-        </button>
-      </DropdownTrigger>
-      <DropdownMenu className = "bg-white text-pink-400" aria-label="Static Actions">
-        <DropdownItem className ="pl-8 pr-8 font-Futura hover:font-bold" key="start" href = "/get-involved/start-a-chapter">Start a Chapter</DropdownItem>
-{/*        <DropdownItem className ="pr-0 hover:font-semibold" key="become" href = "/get-involved/become-an-ambassador">Become an Ambassador</DropdownItem>*/}
-      </DropdownMenu>
-    </Dropdown>
+
         </div>
       </div>
     </nav>

@@ -25,6 +25,17 @@ const useOurwork = () => {
       cssEase:"linear",
       autoplaySpeed:4000
     }
+    const settings2 = {
+      dots: true,
+      infinite: true,
+      speed: 1000,
+      arrows:false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay:true,
+      cssEase:"linear",
+      autoplaySpeed:4000
+    }
 
     return(
         <>
@@ -105,8 +116,8 @@ const useOurwork = () => {
             <div className="grid font-Futura grid-cols-3 p-2 -mt-16 gap-2 pb-40">
                 <div className='col-span-1 '>
                   <img className='scale-50' src = "/image/BMS/Body.png"></img>
-                  <div className='pt-40 bg-white rounded-lg pb-20 text-2xl text-gray-400 -mt-20'>
-                  <div className="slider-container pb-40 p-10">
+                  <div className=' bg-white pt-9 rounded-lg pb-20 text-2xl text-gray-400 -mt-20'>
+                  <div className="slider-container s p-10">
                   <Slider {...settings}>
         <div>
           <img src="image/body/reproduce.png"></img>
@@ -149,8 +160,8 @@ const useOurwork = () => {
 
                 <div className='col-span-1 '>
                 <img className='scale-50' src = "/image/BMS/Mind.png"></img>
-                <div className='pt-40 bg-white rounded-lg text-2xl text-gray-400 pb-12 -mt-20'>
-                <div className="slider-container pb-40 p-10">
+                <div className=' pt-9 bg-white rounded-lg text-2xl text-gray-400 pb-12 -mt-20'>
+                <div className="slider-container p-10">
                   <Slider {...settings}>
         <div>
           <img src="image/mind/movement.png"></img>
@@ -193,7 +204,7 @@ const useOurwork = () => {
                 <img className='scale-50' src = "/image/BMS/Soul.png"></img>
                 <div className='bg-white rounded-lg text-2xl pb-10 text-gray-400 -mt-20'>
                 <div className="slider-container p-10">
-                  <Slider {...settings}>
+                  <Slider {...settings2}>
         <div>
           <img src="image/soul/selflove.png"></img>
         </div>

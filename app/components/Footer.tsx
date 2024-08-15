@@ -24,7 +24,7 @@ const Footer = () =>
                     <a href="mailto:girl-talk@cis.edu.hk" className="hover:underline me-4 md:me-6">Email Us</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/g1rltalkofficial/" className="hover:underline me-4 md:me-6">Instagram</a>
+                    <a href="https://www.instagram.com/g1rltalkofficial/" target="_blank" className="hover:underline me-4 md:me-6">Instagram</a>
                 </li>
             </ul>
         </div>

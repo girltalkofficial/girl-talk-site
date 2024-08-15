@@ -77,7 +77,7 @@ const abouttheteam = () => {
                 </div>
                 <div className='col-span-1'>
                  <p className='pb-8 text-5xl pt-12'>Gigi Xiao, &apos;25</p>
-                    <div className=' bg-pink-400 opacity-50 w-70 h-[400px]'></div>    
+                 <img className=''src ="/image/team/Gigi.png"></img>        
                     <p className='pt-5 pb-5 text-2xl'>Gigi has two dogs and loves to go on walks and hikes during the weekends. She is a part of Girl Talk for the
                         second year now, and is excited to share what they&apos;ve been doing!
                     </p>

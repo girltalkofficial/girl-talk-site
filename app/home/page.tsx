@@ -139,7 +139,7 @@ those without the chance to join our meetings.
 
           </div>
 
-          <Link href = "/about-the-team">
+          <Link href = "/meet-the-team">
             <button className='relative border-4 border-white mb-36 bg-pink-400 font-Futura hover:font-bold'>
               <p className='p-5'>A Message From Our Founder</p>
             </button>
