@@ -44,59 +44,64 @@ const useOurwork = () => {
         <div className=" relative bg-gradient-radial to-pink-400 from-yellow-300 w-full size-auto">
         <div className='pt-10'>
                 <div className ="px-50">
-                    <h1 className = "text-center text-9xl text-white font-Motley leading-[100px]">
+                    <h1 className = "text-center text-9xl  drop-shadow-glow text-white font-Motley leading-[100px]">
                         OUR WORK
                     </h1>
                 </div>
-            </div>
+            </div>  
 
             <div className="relative text-center" >
             <div className = "border-8 border-white mr-5 ml-5 mt-14">
               <img src ="/image/banner2.png"></img> 
             </div>
 
-            <div className='grid grid-cols-4 text-left gap-5 p-5'>
-            <div className='col-span-1 rounded-3xl p-6 shadow-lg bg-gradient-to-r from-pink-400 to-orange-300 '>
+            <div className='grid grid-cols-4 content-center text-left gap-5 p-5'>
+            <div className='col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-pink-400 to-orange-300 '>
                 <div>
-                <span className='text-7xl font-Motley'>36K</span>
-                <span className='text-3xl font-Futura'>pads distributed</span>
+                <span className='lg:text-7xl first-letter:flex  sm:text-5xl text-3xl font-Motley'>36K</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>pads distributed</span>
                 </div>
                 <div>
-                <span className='text-7xl font-Motley'>50K</span>
-                <span className='text-3xl font-Futura'>HKD donated</span>
-                </div>
-            </div>
-            <div className='col-span-1 rounded-3xl p-6 shadow-lg bg-gradient-to-r from-orange-300  to-green-200 '>
-                <div>
-                <span className='text-7xl font-Motley'>8</span>
-                <span className='text-3xl font-Futura'>countries across</span>
-                </div>
-                <div>
-                <span className='text-7xl font-Motley'>4</span>
-                <span className='text-3xl font-Futura'>continents</span>
+                <span className='lg:text-7xl flex sm:text-5xl text-3xl font-Motley'>50K</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>HKD donated</span>
                 </div>
             </div>
-            <div className='col-span-1 rounded-3xl p-6 shadow-lg bg-gradient-to-r from-green-200 to-blue-200 '>
+            <div className='col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-orange-300  to-green-200 '>
                 <div>
-                <span className='text-7xl font-Motley'>12</span>
-                <span className='text-3xl font-Futura'>global youth chapter</span>
+                <span className='lg:text-7xl flex sm:text-5xl text-3xl font-Motley'>8</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>countries across</span>
                 </div>
                 <div>
-                <span className='text-7xl font-Motley'>150</span>
-                <span className='text-3xl font-Futura'>youth advocates</span>
+                <span className='lg:text-7xl flex sm:text-5xl text-3xl  font-Motley'>4</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>continents</span>
                 </div>
             </div>
-            <div className='col-span-1 rounded-3xl p-6 shadow-lg bg-gradient-to-r from-blue-200 to-purple-300 '>
+            <div className='col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-green-200 to-blue-200 '>
                 <div>
-                <span className='text-7xl font-Motley'>30</span>
-                <span className='text-3xl font-Futura'>teaching hours</span>
+                <span className='lg:text-7xl flex sm:text-5xl text-3xl  font-Motley'>12</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>global youth chapter</span>
                 </div>
                 <div>
-                <span className='text-3xl font-Futura'>using our curriculum</span>
+                <span className='lg:text-7xl flex sm:text-5xl text-3xl  font-Motley'>150</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>youth advocates</span>
+                </div>
+            </div>
+            <div className='col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-blue-200 to-purple-300 '>
+                <div className=''>
+                <span className='lg:text-7xl flex sm:text-5xl text-3xl font-Motley'>30</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>teaching hours</span>
+                </div>
+                <div>
+                <span className='lg:text-3xl sm:text-xl font-Futura'>using our curriculum</span>
                 </div>
             </div>
           </div>
-
+         
+          <div className="w-full size-auto mt-8 bg-white pb-5 pt-5">
+                <div className = "text-center md:text-6xl sm:text-5xl lg:text-7xl font-Boruna align-middle text-3xl text-pink-400  ">  
+                    THE THREE PILLARS
+                </div>
+            </div>
 
             <div className="grid grid-cols-3 pt-6 p-2 pl-10 pr-10 gap-12 ">
                   <img src='image/EIS/interact.png' className="opacity-100 hover:scale-90 col-span-1  hover:opacity-100 scale-75 " onClick={()=>setShowModal(true)}>
@@ -106,17 +111,23 @@ const useOurwork = () => {
                 <img src='image/EIS/serve.png' className="opacity-100 hover:scale-90 col-span-1  hover:opacity-100 scale-75 " onClick={()=>setShowModal3(true)}>
                   </img>
             </div>
+
+            <p className="mb-5t lg:text-2xl sm:text-lg">Click on the icons above to learn more!</p>
+
             </div>
             <div className="w-full size-auto mt-8 bg-white pb-5 pt-5">
-                <div className = "text-center font-Boruna align-middle text-7xl text-pink-400  ">  
+                <div id="corecurriculum"  className = "text-center font-Boruna align-middle md:text-6xl sm:text-5xl lg:text-7xl  text-3xl text-pink-400  ">  
                     THE CORE CURRICULUM
                 </div>
             </div>
             
-            <div className="grid font-Futura grid-cols-3 p-2 -mt-16 gap-2 pb-40">
+            <div className="grid font-Futura grid-cols-3 p-2 -mt-10 gap-2 pb-40">
                 <div className='col-span-1 '>
                   <img className='scale-50' src = "/image/BMS/Body.png"></img>
-                  <div className=' bg-white pt-9 rounded-lg pb-20 text-2xl text-gray-400 -mt-20'>
+                  <h3 className=" lg:text-7xl sm:text-3xl md:text-5xl text-white -mt-10 font-Motley font-semibold text-center">
+               BODY
+                </h3>
+                  <div className=' bg-white pt-9 rounded-lg pb-20 lg:text-2xl text-gray-400 mt-10'>
                   <div className="slider-container s p-10">
                   <Slider {...settings}>
         <div>
@@ -133,9 +144,7 @@ const useOurwork = () => {
         </div>
       </Slider>
       </div>
-                <h3 className=" text-5xl font-Motley font-normal  text-pink-400 pt-4 text-center">
-                 BODY
-                </h3>
+
                 <div className='text-center  pt-4'>
                 4 comprehensive guides on:
                 </div>
@@ -160,7 +169,10 @@ const useOurwork = () => {
 
                 <div className='col-span-1 '>
                 <img className='scale-50' src = "/image/BMS/Mind.png"></img>
-                <div className=' pt-9 bg-white rounded-lg text-2xl text-gray-400 pb-12 -mt-20'>
+                <h3 className=" lg:text-7xl sm:text-3xl md:text-5xl text-white -mt-10 font-Motley font-semibold text-center">
+                MIND
+                </h3>
+                <div className=' pt-9 bg-white rounded-lg lg:text-2xl text-gray-400 pb-12 mt-10'>
                 <div className="slider-container p-10">
                   <Slider {...settings}>
         <div>
@@ -177,9 +189,7 @@ const useOurwork = () => {
         </div>
       </Slider>
       </div>
-                <h3 className=" text-5xl font-semibold  text-pink-400  pt-4 text-center">
-                 Mind
-                </h3>
+
                 <div className='text-center pt-4 '>
                 3 lessons on:
                 </div>
@@ -202,7 +212,10 @@ const useOurwork = () => {
 
                 <div className='col-span-1 pb-28'>
                 <img className='scale-50' src = "/image/BMS/Soul.png"></img>
-                <div className='bg-white rounded-lg text-2xl pb-10 text-gray-400 -mt-20'>
+                <h3 className="lg:text-7xl sm:text-3xl md:text-5xl text-white -mt-10 font-Motley font-semibold text-center">
+                 SOUL
+                </h3>
+                <div className='bg-white rounded-lg lg:text-2xl pb-10 text-gray-400 mt-10'>
                 <div className="slider-container p-10">
                   <Slider {...settings2}>
         <div>
@@ -222,9 +235,6 @@ const useOurwork = () => {
         </div>
       </Slider>
       </div>
-                <h3 className=" text-5xl text-pink-400  font-semibold pt-4 text-center">
-                 Soul
-                </h3>
                 <div className='text-center pt-4 '>
                 100 conversation cards on:
                 </div>
@@ -263,6 +273,30 @@ const useOurwork = () => {
      
       <Modal isvisible={showModal} onClose={()=>setShowModal(false)}>
         <div className='p-6'>
+        <Slider {...settings}>
+        <div>
+          <img src="/image/Interact/interact1.JPG"></img>
+        </div>
+        <div>
+          <img src="/image/Interact/interact2.png"></img>
+        </div>
+        <div>
+          <img src="/image/Interact/interact3.png"></img>
+        </div>
+        <div>
+          <img src="/image/Interact/interact4.JPG"></img>
+        </div>
+        <div>
+          <img src="/image/Interact/interact5.png"></img>
+        </div>
+        <div>
+          <img src="/image/Interact/interact6.JPG"></img>
+        </div>
+        <div>
+          <img src="/image/Interact/interact7.JPG"></img>
+        </div>
+      
+      </Slider>
         <h3 className='text-xl font-semibold text-pink-400 mb-5'>Interact</h3>
         <p className='mb-5 text-black'>
         To communicate and connect with others.

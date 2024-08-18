@@ -16,7 +16,10 @@ const Navbarhome = () =>
           name:"Our Chapter Presidents",
           link:"/our-chapterpresidents"
         },
-      
+        {
+          name:"Start a Chapter",
+          link:"/get-involved/start-a-chapter"
+        },
         {
           name:"Donate",
           link:"/donate"
@@ -34,10 +37,6 @@ const Navbarhome = () =>
         {
           name:"Get In Touch",
           link:"/get-in-touch"
-        },
-        {
-          name:"Start a Chapter",
-          link:"/get-involved/start-a-chapter"
         }
       ]
       const involved = [

@@ -94,7 +94,7 @@ expanding our reach to support as many people as we can.
             </div>
             
         <Link target="_blank" href = "https://docs.google.com/forms/d/1YOB4Ca-i4aYitJscnk_hmo4RNWvNhkYCPYi3YL0mOCY/viewform?edit_requested=true">
-            <button className='relative  mt-16 border-4 border-white mb-36 bg-pink-400 font-Futura hover:scale-110 hover:font-bold'>
+            <button className='relative text-3xl  mt-16 border-4 border-white mb-36 bg-pink-400 font-Futura hover:scale-110 rounded-lg'>
               <p className='pl-5 pr-5 pt-5'>DONATE NOW!</p>
               <p className='pl-5 pr-5 pb-5 pt-2 font-light'>Donations only available in Hong Kong*</p>
             </button>

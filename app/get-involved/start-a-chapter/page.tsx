@@ -6,6 +6,7 @@ import FAQ from "../../components/FAQ";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from 'next/link';
 
 const startachapter = () => {
 
@@ -63,8 +64,64 @@ const startachapter = () => {
       </Slider>
       </div>
 
+      <div className = "pl-20 font-Futura pr-20 text-center items-center  ">
+                <div className= "rounded-xl text-center bg-pink-400  ">
+                    <p className = " text-center text-4xl font-Motley p-5 text-white">
+                    WHAT DO I GET IF I START A CHAPTER?
+                    </p>
+                </div>            
+       
+            <div className = "grid grid-cols-2">
+                <div className = "col-span-1 items-center  mr-10">
+                    <div className = " text-lg mt-5 text-center ">
+                        <p className = " pl-5 text-white ">
+                        Access to a Google folder with:
+                        </p>
+                        <ul className = " font-normal pl-5 pt-3  text-white">
+
+                            <li>
+                            Our entire core curriculum
+                            </li>
+                            <li>
+                            Planning and organising documents for your team
+                            </li>
+                            <li>
+                            Girl Talk graphics, fonts, vectors, and colour swatches
+                            </li>
+                            <li>
+                            Merch (if applicable)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div className = "col-span-1 items-center  mr-10">
+                    <div className = "mt-5 text-lg text-center ">
+                        <p className = " pl-5 text-white ">
+                        Support from the executive team, including:
+                        </p>
+                        <ul className = "font-normal pl-5 pt-3  text-white">
+
+                            <li>
+                            Meetings for advice upon request
+                            </li>
+                            <li>
+                            Monthly/annual Zoom meetings with all global leads
+                            </li>
+                            <li>
+                            Work and chapter leads featured on our website
+                            </li>
+                            <li>
+                            Chapter awards and opportunities
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+  
         
-        <div className = "font-Futura grid grid-cols-3 mt-8 ml-3 mr-3 ">
+        <div className = "font-Futura grid grid-cols-2 mt-8 ml-3 mr-3 ">
             <div className = "col-span-1 items-center  mr-5">
                 <div className= "flex text-left rounded-xl  bg-pink-400 w-auto items-center">
                     <p className = "font-normal pl-5 text-4xl font-Motley p-5 text-white">
@@ -122,71 +179,18 @@ personal and contact details.
                     </ul>
                 </div>
             </div>
+            </div>
         
        
-       
-       
-            <div className = "col-span-1 items-center  ">
-                <div className= "flex  rounded-xl bg-pink-400 text-left w-auto items-center ">
-                    <p className = "font-normal pl-5 text-4xl font-Motley p-5 text-white">
-                    WHAT DO I GET IF I START A CHAPTER?
-                    </p>
-                </div>            
-       
-            <div className = "grid grid-cols-2">
-                <div className = "col-span-1 items-center  mr-10">
-                    <div className = " text-lg mt-5 text-left ">
-                        <p className = " pl-5 text-white ">
-                        Access to a Google folder with:
-                        </p>
-                        <ul className = " font-normal pl-5 pt-3 list-decimal text-white">
-
-                            <li>
-                            Our entire core curriculum
-                            </li>
-                            <li>
-                            Planning and organising documents for your team
-                            </li>
-                            <li>
-                            Girl Talk graphics, fonts, vectors, and colour swatches
-                            </li>
-                            <li>
-                            Merch (if applicable)
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            
-                <div className = "col-span-1 items-center  mr-10">
-                    <div className = "mt-5 text-lg text-left ">
-                        <p className = " pl-5 text-white ">
-                        Support from the executive team, including:
-                        </p>
-                        <ul className = "font-normal pl-5 pt-3 list-decimal text-white">
-
-                            <li>
-                            Meetings for advice upon request
-                            </li>
-                            <li>
-                            Monthly/annual Zoom meetings with all global leads
-                            </li>
-                            <li>
-                            Work and chapter leads featured on our website
-                            </li>
-                            <li>
-                            Chapter awards and opportunities
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-       
-        
 
         <FAQ/>
-        <div className='pb-20'></div>
+        <div className='flex justify-center pb-20 items-center pt-20'>
+            <Link href = "/home" >
+            <button className='bg-gradient-to-r p-10 hover:scale-110 hover:shadow-lg font-Futura text-3xl shadow-md from-purple-300  to-blue-200 rounded-lg'>
+                Start a Chapter Now!
+            </button>
+            </Link>
+        </div>
      
         </main>
     

@@ -21,10 +21,14 @@ const Footer = () =>
       
             <ul className="flex flex-wrap items-center mb-6 text-sm font-Futura text-black sm:mb-0">
                 <li>
-                    <a href="mailto:girl-talk@cis.edu.hk" className="hover:underline me-4 md:me-6">Email Us</a>
+                    <Link href="mailto:girl-talk@cis.edu.hk" target = "blank" >
+                        <img src ="/image/gmail.png" className="size-8 me-4 md:me-6"></img>                 
+                    </Link>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/g1rltalkofficial/" target="_blank" className="hover:underline me-4 md:me-6">Instagram</a>
+                    <Link href = "https://www.instagram.com/g1rltalkofficial/" target="_blank">
+                    <img src = "/image/Instagram_Glyph_Black.png" className=" me-4 size-8 md:me-6"></img>
+                    </Link>
                 </li>
             </ul>
         </div>

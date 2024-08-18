@@ -62,7 +62,7 @@ const Contact: FC = () => {
         ></textarea>
       </div>
       <div>
-        <button className='hover:shadow-sm font-Futura rounded-md bg-pink-400 py-3 px-8 text-base hover:font-bold text-white outline-none'>
+        <button className='hover:shadow-sm font-Futura rounded-md bg-pink-400 py-3 px-8 text-base hover:scale-110 text-white outline-none'>
           Submit
         </button>
       </div>

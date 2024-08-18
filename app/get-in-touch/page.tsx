@@ -16,7 +16,7 @@ export default function GetInTouch() {
             </div>
         </div>
         <div className='flex min-h-screen flex-colitems-center justify-center p-20 '>
-            <Contact/>
+           <Contact/>
         </div>
         </div>
         <Footer/>
