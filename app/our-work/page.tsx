@@ -264,42 +264,41 @@ const useOurwork = () => {
                     </div>
                 </div>
             </main>
-
             <Modal isvisible={showModal} onClose={() => setShowModal(false)}>
-                <div className='p-6'>
-                    <Slider {...settings}>
-                        <div>
-                            <img src="/image/Interact/interact1.JPG" alt="Interact 1" />
-                        </div>
-                        <div>
-                            <img src="/image/Interact/interact2.png" alt="Interact 2" />
-                        </div>
-                        <div>
-                            <img src="/image/Interact/interact3.png" alt="Interact 3" />
-                        </div>
-                        <div>
-                            <img src="/image/Interact/interact4.JPG" alt="Interact 4" />
-                        </div>
-                        <div>
-                            <img src="/image/Interact/interact5.png" alt="Interact 5" />
-                        </div>
-                        <div>
-                            <img src="/image/Interact/interact6.JPG" alt="Interact 6" />
-                        </div>
-                        <div>
-                            <img src="/image/Interact/interact7.JPG" alt="Interact 7" />
-                        </div>
-                    </Slider>
-                    <h3 className='text-xl font-semibold text-pink-400 mb-5'>Interact</h3>
-                    <p className='mb-5 text-black'>
-                        To communicate and connect with others.
-                    </p>
-                    <p className='mb-5 text-black'>
-                        Sparking meaningful conversations using our cards; hosting social events for our chapter leads, vision board
-                        and friendship bracelet making workshops, movie screenings.
-                    </p>
-                </div>
-            </Modal>
+    <div className='p-6 max-w-xs sm:max-w-md md:max-w-lg mx-auto'>
+        <Slider {...settings}>
+            <div>
+                <img src="/image/Interact/interact1.JPG" alt="Interact 1" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/Interact/interact2.png" alt="Interact 2" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/Interact/interact3.png" alt="Interact 3" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/Interact/interact4.JPG" alt="Interact 4" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/Interact/interact5.png" alt="Interact 5" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/Interact/interact6.JPG" alt="Interact 6" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/Interact/interact7.JPG" alt="Interact 7" className="w-full h-auto" />
+            </div>
+        </Slider>
+        <h3 className='text-xl font-semibold text-pink-400 mb-5 text-center'>Interact</h3>
+        <p className='mb-5 text-black text-center'>
+            To communicate and connect with others.
+        </p>
+        <p className='mb-5 text-black text-center'>
+            Sparking meaningful conversations using our cards; hosting social events for our chapter leads, vision board
+            and friendship bracelet making workshops, movie screenings.
+        </p>
+    </div>
+</Modal>
 
             <Modal isvisible={showModal2} onClose={() => setShowModal2(false)}>
                 <div className='p-6'>
