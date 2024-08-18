@@ -16,15 +16,15 @@ export default function Home() {
     <Navbar/>
       <main>
         <div className="text-center relative bg-gradient-radial to-pink-400 from-yellow-300 w-full size-auto " >
-          <img src ="/image/stars.png" className='object-cover absolute mix-blend-normal'>
-          </img>
+          <div className='bg-stars'>
+        
           
           <div className= "pt-7">
-            <h1 className="text-9xl font-Motley drop-shadow-glow text-white">Girl Talk Official</h1>
+            <h1 className="sm:text-9xl text-7xl font-Motley drop-shadow-glow text-white">Girl Talk Official</h1>
           </div>
            
           <div className="relative border-8 border-white mt-10 ml-5 mr-5">
-              <img className ="object-cover" src ="/image/banner1.png"></img>
+              <img className ="h-full bg-repeat-y object-cover" src ="/image/banner1.png"></img>
               <div className ="absolute inset-0 flex items-center justify-center ">
 
                 <p className="text-black p-4 bg-white opacity-90 lg:text-3xl md:text-lg sm:text-sm font-Futura font-bold" onClick={()=>setShowModaldesc(true)}>
@@ -58,7 +58,7 @@ export default function Home() {
             <div className='col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-green-200 to-blue-200 '>
                 <div>
                 <span className='lg:text-7xl flex sm:text-5xl text-3xl  font-Motley'>12</span>
-                <span className='lg:text-3xl flex sm:text-xl font-Futura'>global youth chapter</span>
+                <span className='lg:text-3xl flex sm:text-xl font-Futura'>global youth chapters</span>
                 </div>
                 <div>
                 <span className='lg:text-7xl flex sm:text-5xl text-3xl  font-Motley'>150</span>
@@ -162,7 +162,7 @@ those without the chance to join our meetings.
             </button>
           </Link>
         </div>
-   
+        </div>
       </main>
     <Footer/>
 

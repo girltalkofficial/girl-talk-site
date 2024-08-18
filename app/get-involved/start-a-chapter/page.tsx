@@ -27,16 +27,17 @@ const startachapter = () => {
         <>
         <Navbar/>
         <main className=" relative bg-gradient-radial to-pink-400 from-yellow-300 w-full size-auto">
+        <div className='bg-stars'>
             <div className='pt-10'>
                 <div className ="px-50">
-                    <h1 className = "font-Motley text-center text-9xl text-white leading-[100px]">
+                    <h1 className = "font-Motley text-center drop-shadow-glow sm:text-9xl text-7xl text-white leading-[100px]">
                         GET INVOLVED
                     </h1>
                 </div>
             </div>
 
             <div className="w-full size-auto mt-10 bg-white pb-5 pt-5">
-                <div className = "text-center align-middle text-7xl text-pink-400 font-Boruna ">  
+                <div className = "text-center align-middle text-3xl md:text-6xl sm:text-5xl lg:text-7xl text-pink-400 font-Boruna ">  
                     START A CHAPTER
                 </div>
             </div>
@@ -66,14 +67,14 @@ const startachapter = () => {
 
       <div className = "pl-20 font-Futura pr-20 text-center items-center  ">
                 <div className= "rounded-xl text-center bg-pink-400  ">
-                    <p className = " text-center text-4xl font-Motley p-5 text-white">
+                    <p className = " text-center sm:text-4xl text-2xl font-Motley p-5 text-white">
                     WHAT DO I GET IF I START A CHAPTER?
                     </p>
                 </div>            
        
             <div className = "grid grid-cols-2">
                 <div className = "col-span-1 items-center  mr-10">
-                    <div className = " text-lg mt-5 text-center ">
+                    <div className = " text-sm ms:text-lg mt-5 text-center ">
                         <p className = " pl-5 text-white ">
                         Access to a Google folder with:
                         </p>
@@ -96,7 +97,7 @@ const startachapter = () => {
                 </div>
             
                 <div className = "col-span-1 items-center  mr-10">
-                    <div className = "mt-5 text-lg text-center ">
+                    <div className = "mt-5 text-sm ms:text-lg text-center ">
                         <p className = " pl-5 text-white ">
                         Support from the executive team, including:
                         </p>
@@ -124,11 +125,11 @@ const startachapter = () => {
         <div className = "font-Futura grid grid-cols-2 mt-8 ml-3 mr-3 ">
             <div className = "col-span-1 items-center  mr-5">
                 <div className= "flex text-left rounded-xl  bg-pink-400 w-auto items-center">
-                    <p className = "font-normal pl-5 text-4xl font-Motley p-5 text-white">
+                    <p className = "font-normal pl-5  sm:text-4xl text-2xl font-Motley p-5 text-white">
                     WHAT DO I DO AS A CHAPTER LEAD?
                     </p>
                 </div>
-                <div className = " text-lg mt-5 text-left ">
+                <div className = " text-sm ms:text-lg  mt-5 text-left ">
                     <ul className = " pl-5 font-normal list-disc text-white">
                         <li>
                         Start a school club or arrange regular outside of school meetings
@@ -148,11 +149,11 @@ const startachapter = () => {
             
             <div className = "col-span-1 items-center mr-5 ">
                <div className= "flex  rounded-xl bg-pink-400 text-left w-auto items-center ">
-                    <p className = "font-normal pl-5 text-4xl font-Motley p-5 text-white">
+                    <p className = "font-normal pl-5  sm:pt-5 sm:pb-5 pt-9 pb-9 sm:text-4xl text-2xl font-Motley p-5 text-white">
                     HOW DO I START A CHAPTER?
                     </p>
                 </div>
-                <div className = "mt-5 text-lg text-left ">
+                <div className = "mt-5 text-sm ms:text-lg  text-left ">
                     <p className = " pl-5 font-medium text-white ">
                     Follow a 4-step online process with no interview or waiting period
                     </p>
@@ -191,7 +192,7 @@ personal and contact details.
             </button>
             </Link>
         </div>
-     
+        </div>
         </main>
     
         <Footer/>

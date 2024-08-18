@@ -42,16 +42,17 @@ const useOurwork = () => {
         <Navbar/>
         <main>
         <div className=" relative bg-gradient-radial to-pink-400 from-yellow-300 w-full size-auto">
-        <div className='pt-10'>
+        <div className='bg-stars'>
+        <div className='pt-7'>
                 <div className ="px-50">
-                    <h1 className = "text-center text-9xl  drop-shadow-glow text-white font-Motley leading-[100px]">
+                    <h1 className = "text-center sm:text-9xl text-7xl drop-shadow-glow text-white font-Motley ">
                         OUR WORK
                     </h1>
                 </div>
             </div>  
 
             <div className="relative text-center" >
-            <div className = "border-8 border-white mr-5 ml-5 mt-14">
+            <div className = "border-8 border-white mr-5 ml-5 mt-10">
               <img src ="/image/banner2.png"></img> 
             </div>
 
@@ -266,7 +267,7 @@ const useOurwork = () => {
             </div>
 
 
-            
+            </div>
           </div>
        
       </main>
@@ -334,6 +335,7 @@ const useOurwork = () => {
         sponsoring refugees and asylum seekers with period care.
         </p>
         </div> 
+        
       </Modal>
       
         <Footer/> 

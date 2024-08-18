@@ -27,9 +27,10 @@ const donate = () => {
         <>
         <Navbar/>
         <div className=" text-center relative bg-gradient-radial to-pink-400 from-yellow-300 w-full size-auto">
+        <div className='bg-stars'>
             <div className='pt-10'>
                 <div className ="px-50">
-                    <h1 className = "text-center text-9xl text-white font-Motley leading-[100px]">
+                    <h1 className = "text-center text-9xl drop-shadow-glow text-white font-Motley leading-[100px]">
                         DONATE
                     </h1>
                 </div>
@@ -99,7 +100,7 @@ expanding our reach to support as many people as we can.
               <p className='pl-5 pr-5 pb-5 pt-2 font-light'>Donations only available in Hong Kong*</p>
             </button>
           </Link>
-
+          </div>
         </div>
         <Footer/>
         </>
