@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import React from 'react';
 import Navbar from "../../components/Navbarhome";
 import Footer from "../../components/Footer";
@@ -44,6 +44,7 @@ const startachapter = () => {
           },
         ],
       };
+      
 
   return (
     <>
@@ -159,14 +160,7 @@ const startachapter = () => {
             </div>
           </div>
 
-          <div className="px-5 sm:px-10 md:px-20">
-            <div className="text-center bg-pink-400 rounded-xl p-5 mb-10">
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
-                Frequently Asked Questions
-              </p>
-            </div>
-            <FAQ />
-          </div>
+          <FAQ />
 
           <div className='flex justify-center pb-20 items-center pt-20'>
             <Link href="/home">
