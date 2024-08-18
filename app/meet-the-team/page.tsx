@@ -17,7 +17,7 @@ const abouttheteam = () => {
             </div>
           </div>
           
-          <div className="mx-5 sm:mx-10 md:mx-20 mt-10 p-8 text-center bg-white rounded-lg hover:scale-110 transition-transform">
+          <div className="mx-5 sm:mx-10 md:mx-20 mt-10 p-8 text-center bg-white rounded-lg hover:scale-105 transition-transform">
             <Message>
               <p className="font-Motley text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl pb-5 text-pink-400">
                 A MESSAGE FROM OUR FOUNDER
