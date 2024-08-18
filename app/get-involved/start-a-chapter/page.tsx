@@ -132,7 +132,7 @@ const startachapter = () => {
               <ul className="list-disc list-inside text-white text-sm sm:text-base lg:text-lg">
                 <li>Start a school club or arrange regular outside-of-school meetings</li>
                 <li>Meet with 5 or more members for at least 35 hours a year (3 times a month, 1 hour each meeting)</li>
-                <li>Alternate between our women's rights course, feminine hygiene guide, and conversation cards</li>
+                <li>Alternate between our women&apos;s rights course, feminine hygiene guide, and conversation cards</li>
                 <li>Organize interaction, education, and service events</li>
               </ul>
             </div>
@@ -151,7 +151,7 @@ const startachapter = () => {
                   Show us what you know: Pass a brief quiz to assess your understanding of the core information covered in the induction materials.
                 </li>
                 <li>
-                  Tell us about you: Provide a 90-second video or 200-word written response outlining your motivation for starting a chapter and your ideas for furthering our organization's mission within your local community.
+                  Tell us about you: Provide a 90-second video or 200-word written response outlining your motivation for starting a chapter and your ideas for furthering our organization&apos;s mission within your local community.
                 </li>
                 <li>
                   Supply basic information: Complete the chapter leader application form by providing the necessary personal and contact details.
