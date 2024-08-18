@@ -4,6 +4,9 @@ import Mail from 'nodemailer/lib/mailer';
 
 export async function POST(request: NextRequest) {
   try {
+    
+    console.log('MY_EMAIL:', process.env.MY_EMAIL);
+    console.log('MY_PASSWORD:', process.env.MY_PASSWORD);
     const { email, name, message } = await request.json();
 
     const transport = nodemailer.createTransport({
