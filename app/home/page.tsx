@@ -28,7 +28,7 @@ export default function Home() {
               </div>
             </div>
 
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
               <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-pink-400 to-orange-300 flex flex-col justify-center items-center">
                 <div className="text-left w-full">
                   <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">36K</span>
@@ -72,7 +72,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
 
             <div className="font-Futura font-normal px-5 lg:px-20 py-10">
               <p className="text-sm sm:text-lg lg:text-2xl mb-5">
@@ -131,6 +130,22 @@ export default function Home() {
               </Link>
             </div>
 
+            {/* Added "Meet the Team" and "News" buttons */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 p-5">
+              <Link href="/meet-the-team">
+                <div className="col-span-1 rounded-3xl shadow-lg hover:scale-105 p-5 content-center bg-gradient-to-r from-purple-300 to-blue-200">
+                  <div className="text-lg sm:text-3xl lg:text-5xl font-Motley">Meet the Team</div>
+                  <div className="text-sm sm:text-xl lg:text-3xl font-Futura">Learn More</div>
+                </div>
+              </Link>
+              <Link href="/news">
+                <div className="col-span-1 rounded-3xl shadow-lg hover:scale-105 p-5 content-center bg-gradient-to-r from-blue-200 to-green-200">
+                  <div className="text-lg sm:text-3xl lg:text-5xl font-Motley">News</div>
+                  <div className="text-sm sm:text-xl lg:text-3xl font-Futura">Learn More</div>
+                </div>
+              </Link>
+            </div>
+
             <Link href="/meet-the-team">
               <button className="relative rounded-lg border-4 mt-20 hover:scale-110 border-white mb-20 bg-pink-400 font-Futura">
                 <p className="p-10 text-sm sm:text-lg lg:text-3xl">A Message From Our Founder</p>
@@ -140,7 +155,6 @@ export default function Home() {
         </div>
       </main>
       <Footer />
-\
     </>
   );
 }
