@@ -136,7 +136,7 @@ const startachapter = () => {
             <div>
               <div className="bg-pink-400 rounded-xl p-5 mb-5">
                 <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
-                  HOW DO I START A CHAPTER?
+                  WHAT DO I GET AS A CHAPTER?
                 </p>
               </div>
 

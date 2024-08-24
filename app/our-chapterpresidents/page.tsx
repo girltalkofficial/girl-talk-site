@@ -183,7 +183,7 @@ const OurAdvocates: React.FC = () => {
                       backgroundSize: "150% 150%",
                     }}
                   >
-                    <div className="flex flex-col md:flex-row items-center font-Futura bg-gradient-to-b from-pink-300 via-pink-200 via-40% to-white p-5 rounded-lg shadow-md h-full">
+                    <div className="flex flex-col md:flex-row items-center font-Futura bg-gradient-radial from-yellow-400 via-orange-400 to-pink-400 p-5 rounded-lg shadow-md h-full">
                       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
                         <img
                           src={president.image}

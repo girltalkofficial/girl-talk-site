@@ -73,34 +73,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="font-Futura font-normal px-5 lg:px-20 py-10">
+            <div className="font-Futura font-normal px-5 lg:px-20 py-5">
               <p className="text-sm sm:text-lg lg:text-2xl mb-5">
                 Girl Talk is a Hong Kong based student-led organisation dedicated to empowering girls through the principles of interaction, education, and service. Our core belief? That “girl talk” is more than trivial conversation. That moments of connection and understanding between girls build the strength needed to fight back. We champion this belief by teaching our core curriculum, complete with a women&apos;s history course, beginner guides to feminine hygiene, and 100 conversation cards for teens, in chapters across the world. Here in Hong Kong, we provide period care to those in need, working with LUÜNA — a women-led, B Corp-certified period care company — to supply refugees with pads year-round. Because it&apos;s never just girl talk: it&apos;s creating a network of educated, like-minded, and community-service-oriented advocates determined to change the world - one conversation at a time.
               </p>
-            </div>
-
-            <div className="w-full mt-10 bg-white py-5">
-              <div className="text-center text-2xl sm:text-3xl md:text-5xl lg:text-7xl text-pink-400 font-Boruna">  
-                MORE ABOUT US
-              </div>
-            </div>
-
-            <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 px-5 sm:px-10 py-10 font-Futura font-normal">
-              <div className="col-span-1">
-                <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Why Girl?</p>
-                <p className="text-sm sm:text-xl lg:text-2xl mb-5">
-                  In recent years, the parameters around gender and sexuality have become more fluid in the public consciousness – a change that has allowed individuals across the world to express themselves freely and authentically. Plus, intersectional studies have revealed a need to consider factors such as gender identity when addressing sexism, rejecting a monolithic narrative of feminism. Why then, do we stick to the label of “girl”?
-                </p>
-                <p className="text-sm sm:text-xl lg:text-2xl mb-10">
-                  We recognise that gender is a social construct; so, our definition of “girl” is inclusive of any individual who identifies as a female, or aligns themselves with the aims and experiences of women, regardless of assigned sex at birth. To us, “girl” is unifying: it encapsulates our shared struggles and experiences, the basis upon which we can relate and empathise with each other. By instrumentalising girl talk as (literal) voices for change, we reclaim the label as a rallying point for female empowerment.
-                </p>
-              </div>
-              <div className="col-span-1">
-                <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Our Story</p>
-                <p className="text-sm sm:text-xl lg:text-2xl mb-5">
-                  Girl Talk started as a small, student-led club at Chinese International School, Hong Kong, on November 17th, 2022. Our first club meeting? Yielded a total of 3 attendees. Over the years, we grew into a family of 15, aged 12-14, and an executive team of 6. Though our club has stayed small and tight-knit, our outreach doesn&apos;t end there; we frequently organise fundraisers and events for the wider school community to involve those without the chance to join our meetings.
-                </p>
-              </div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
@@ -130,7 +106,6 @@ export default function Home() {
               </Link>
             </div>
 
-            {/* Added "Meet the Team" and "News" buttons */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 p-5">
               <Link href="/meet-the-team">
                 <div className="col-span-1 rounded-3xl shadow-lg hover:scale-105 p-5 content-center bg-gradient-to-r from-purple-300 to-blue-200">
@@ -146,8 +121,34 @@ export default function Home() {
               </Link>
             </div>
 
+            <div className="w-full mt-10 bg-white py-5">
+              <div className="text-center text-2xl sm:text-3xl md:text-5xl lg:text-7xl text-pink-400 font-Boruna">  
+                MORE ABOUT US
+              </div>
+            </div>
+
+            <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 px-5 sm:px-10 pt-10 pb-3 font-Futura font-normal">
+              <div className="col-span-1">
+                <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Why Girl?</p>
+                <p className="text-sm sm:text-xl lg:text-2xl mb-5">
+                  In recent years, the parameters around gender and sexuality have become more fluid in the public consciousness – a change that has allowed individuals across the world to express themselves freely and authentically. Plus, intersectional studies have revealed a need to consider factors such as gender identity when addressing sexism, rejecting a monolithic narrative of feminism. Why then, do we stick to the label of “girl”?
+                </p>
+                <p className="text-sm sm:text-xl lg:text-2xl mb-10">
+                  We recognise that gender is a social construct; so, our definition of “girl” is inclusive of any individual who identifies as a female, or aligns themselves with the aims and experiences of women, regardless of assigned sex at birth. To us, “girl” is unifying: it encapsulates our shared struggles and experiences, the basis upon which we can relate and empathise with each other. By instrumentalising girl talk as (literal) voices for change, we reclaim the label as a rallying point for female empowerment.
+                </p>
+              </div>
+              <div className="col-span-1">
+                <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Our Story</p>
+                <p className="text-sm sm:text-xl lg:text-2xl mb-5">
+                  Girl Talk started as a small, student-led club at Chinese International School, Hong Kong, on November 17th, 2022. Our first club meeting? Yielded a total of 3 attendees. Over the years, we grew into a family of 15, aged 12-14, and an executive team of 6. Though our club has stayed small and tight-knit, our outreach doesn&apos;t end there; we frequently organise fundraisers and events for the wider school community to involve those without the chance to join our meetings.
+                </p>
+              </div>
+            </div>
+
+           
+
             <Link href="/meet-the-team">
-              <button className="relative rounded-lg border-4 mt-20 hover:scale-110 border-white mb-20 bg-pink-400 font-Futura">
+              <button className="relative rounded-lg border-4  hover:scale-110 border-white mb-20 bg-pink-400 font-Futura">
                 <p className="p-10 text-sm sm:text-lg lg:text-3xl">A Message From Our Founder</p>
               </button>
             </Link>
