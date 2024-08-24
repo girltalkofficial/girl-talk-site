@@ -11,7 +11,7 @@ const OurAdvocates: React.FC = () => {
           school: "Girl Talk KGV",
           name: "Amelie So",
           image: "/image/chapterpresidents/Amelie.jpg",
-          bio: "Amelie is a Y12 student at KGV who’s favourite song is Iris by the Goo Goo Dolls.  A strange fact about her is that despite being extremely clumsy and dropping things all the time, she has the talent of not breaking things. She wants to join Girl Talk because she loves wholesome girl moments and wants to build a chapter within our school that will serve as an inclusive and empowering community amongst girls.",
+          bio: "Amelie is a Y12 student at KGV who’s favourite song is Iris by the Goo Goo Dolls. A strange fact about her is that despite being extremely clumsy and dropping things all the time, she has the talent of not breaking things. She wants to join Girl Talk because she loves wholesome girl moments and wants to build a chapter within our school that will serve as an inclusive and empowering community amongst girls.",
           contact: "https://www.instagram.com/girltalkkgv/",
           insta: "girltalkkgv"
         },
@@ -29,7 +29,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Isabelle is a strong advocate for social justice and gender equality. She believes in the power of education and community to bring about change.",
           contact: "maki2@stconline.edu.hk",
-          insta: "girltalkseoul"
+          insta: "girltalkshatin"
         },
         {
           school: "Girl Talk Sha Tin College",
@@ -37,7 +37,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Christa is committed to creating a supportive environment for all girls, where they can freely express themselves and learn from one another.",
           contact: "chenc23@stconline.edu.hk",
-          insta: "girltalkseoul"
+          insta: "girltalkshatin"
         },
         {
           school: "Girl Talk CDNIS",
@@ -45,7 +45,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Chloe is enthusiastic about promoting gender equality and providing resources for young women to succeed. She believes in the power of collective effort.",
           contact: "chloechan2026@cdnis.edu.hk",
-          insta: "girltalkseoul"
+          insta: "girltalkcdnis"
         },
         {
           school: "Girl Talk CDNIS",
@@ -53,7 +53,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Summer-Sophie is passionate about empowering young women through education and community involvement. She is dedicated to making a positive impact.",
           contact: "summerguenot2026@cdnis.edu.hk",
-          insta: "girltalkseoul"
+          insta: "girltalkcdnis"
         },
       ],
     },
@@ -66,7 +66,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Lilly is committed to creating a supportive environment for all girls, encouraging them to pursue their passions and stand up for what they believe in.",
           contact: "lillyl2027@student.cis.edu.hk",
-          insta: "girltalkseoul"
+          insta: "girltalkcishz"
         },
         {
           school: "Girl Talk CISHZ",
@@ -74,6 +74,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Kaitlyn is passionate about fostering a community where girls can support and uplift one another. She is always looking for ways to make a difference.",
           contact: "kaitlynl227@student.cis.edu.hk",
+          insta: "girltalkcishz"
         },
         {
           school: "Girl Talk CISHZ",
@@ -81,6 +82,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Monique is driven by a desire to see all girls succeed. She works hard to create opportunities for young women to learn, grow, and thrive.",
           contact: "moniques2027@student.cis.edu.hk",
+          insta: "girltalkcishz"
         },
       ],
     },
@@ -91,7 +93,7 @@ const OurAdvocates: React.FC = () => {
           school: "Girl Talk YISS",
           name: "Michelle Ko",
           image: "/image/chapterpresidents/Michelle.jpg",
-          bio: "Michelle Ko is a senior at YISS. You could probably find her baking, singing, or being with her friends. She wants to give a shoutout to Michelle Obama for being her much more girlboss and impressive name twin.  She's super excited to be a chapter lead for Girl Talk and hopes to represent its cause as well as possible!",
+          bio: "Michelle Ko is a senior at YISS. You could probably find her baking, singing, or being with her friends. She wants to give a shoutout to Michelle Obama for being her much more girlboss and impressive name twin. She's super excited to be a chapter lead for Girl Talk and hopes to represent its cause as well as possible!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
         },
@@ -122,6 +124,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Amelie.jpg",
           bio: "Maisha is dedicated to empowering girls through education and community service. She believes in the power of collective action to bring about change.",
           contact: "maishamahbub11@gmail.com",
+           insta: "girltalkseoul"
         },
         {
           school: "Girl Talk Toronto",
@@ -129,6 +132,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Amelie.jpg",
           bio: "Mahi is passionate about creating a supportive environment for young women to thrive. She is committed to promoting equality and justice.",
           contact: "mahigohel20@gmail.com",
+           insta: "girltalkseoul"
         },
       ],
     },
@@ -141,6 +145,7 @@ const OurAdvocates: React.FC = () => {
           image: "/image/chapterpresidents/Amelie.jpg",
           bio: "Saanvi is focused on building a strong community of girls who support each other and work together to achieve their goals.",
           contact: "saanvkantala@gmail.com",
+           insta: "girltalkseoul"
         },
       ],
     },
@@ -178,17 +183,17 @@ const OurAdvocates: React.FC = () => {
                       backgroundSize: "150% 150%",
                     }}
                   >
-                    <div className="flex flex-col md:flex-row items-center font-Futura bg-white p-5 rounded-lg shadow-md h-full">
+                    <div className="flex flex-col md:flex-row items-center font-Futura bg-gradient-to-b from-pink-300 via-pink-200 via-40% to-white p-5 rounded-lg shadow-md h-full">
                       <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
                         <img
                           src={president.image}
                           alt={`${president.name}'s image`}
-                          className="h-24 w-24 sm:h-28 sm:w-28 lg:h-32 lg:w-32 object-cover rounded-full border border-black"
+                          className="h-24 w-24 sm:h-28 sm:w-28 lg:h-32 lg:w-32 object-cover rounded-lg border border-black"
                         />
                       </div>
                       <div className="text-center md:text-left flex flex-col justify-between space-y-2 lg:space-y-4">
-                        <p className="font-bold text-lg sm:text-xl text-pink-400 lg:text-2xl">
-                          {president.name}
+                        <p className="font-Motley text-lg sm:text-2xl text-black lg:text-3xl">
+                          {president.name.toUpperCase()}
                         </p>
                         <p className="text-sm sm:text-md lg:text-lg text-gray-700">
                           {president.school}
@@ -199,28 +204,28 @@ const OurAdvocates: React.FC = () => {
                         <p className="text-xs sm:text-sm lg:text-base text-gray-700">
                           Contact:{" "}
                           <a
-                             href={president.contact}
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             className="text-blue-500 hover:underline"
-                           >
-                             @{president.insta}
-                           </a>
-                         </p>
-                       </div>
-                     </div>
-                   </div>
-                 ))}
-               </div>
-             </div>
-           ))}
-         </div>
-         <div className="pb-20"></div>
-       </div>
- 
-       <Footer />
-     </>
-   );
- };
- 
- export default OurAdvocates;
+                            href={president.contact}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-500 hover:underline"
+                          >
+                            @{president.insta}
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="pb-20"></div>
+      </div>
+
+      <Footer />
+    </>
+  );
+};
+
+export default OurAdvocates;
