@@ -68,27 +68,27 @@ const abouttheteam = () => {
           
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 sm:px-10 md:px-20 py-10 text-center font-Futura'>
             <div className='col-span-1'>
-              <p className='pb-8 text-xl sm:text-2xl md:text-3xl lg:text-5xl'>Adele Li, &apos;25</p>
-              <img className='drop-shadow-glow mx-auto w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-cover' src="/image/team/Adele.png" alt="Adele Li" />
-              <p className='pt-5 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Adele Li, &apos;25</p>
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full  object-cover rounded-lg' src="/image/team/Adele.png" alt="Adele Li" />
+              <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Adele is passionate about public speaking, feminist literature, and graphic design. In her free time, you
                 can find her reading a book, listening to musical soundtracks, or roaming around in thrift stores.
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-8 text-xl sm:text-2xl md:text-3xl lg:text-5xl'>Jasmine Haynes, &apos;25</p>
-              <img className='drop-shadow-glow mx-auto w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-cover' src="/image/team/Jasmine.jpg" alt="Jasmine Haynes" />
-              <p className='pt-5 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Jasmine Haynes, &apos;25</p>
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Jasmine.jpg" alt="Jasmine Haynes" />
+              <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Jasmine is interested in the performing arts, literature, and mental health. When she&apos;s not singing or
                 dancing, she&apos;ll be enjoying her free time with family and friends.
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-8 text-xl sm:text-2xl md:text-3xl lg:text-5xl'>Gigi Xiao, &apos;25</p>
-              <img className='drop-shadow-glow mx-auto w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-cover' src="/image/team/Gigi.png" alt="Gigi Xiao" />
-              <p className='pt-5 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
-                Gigi has two dogs and loves to go on walks and hikes during the weekends. She is a part of Girl Talk for the
-                second year now, and is excited to share what they&apos;ve been doing!
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Gigi Xiao, &apos;25</p>
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Gigi.png" alt="Gigi Xiao" />
+              <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
+              Gigi Xiao has a keen interest in both economics and literature. 
+              Outside of school, she loves exploring new restaurants around the city or taking her two dogs on hikes.
               </p>
             </div>
           </div>
@@ -101,25 +101,25 @@ const abouttheteam = () => {
 
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 sm:px-10 md:px-20 py-10 text-center font-Futura'>
             <div className='col-span-1'>
-              <p className='pb-8 text-xl sm:text-2xl md:text-3xl lg:text-5xl'>Bernice Chan, &apos;26</p>
-              <img className='drop-shadow-glow mx-auto w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-cover' src="/image/team/Bernice.png" alt="Bernice Chan" />
-              <p className='pt-5 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Bernice Chan, &apos;26</p>
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Bernice.png" alt="Bernice Chan" />
+              <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 When Bernice isn&apos;t in the art room experimenting with new mediums, you can find her sewing with a 
                 movie in the background, cozied up with her dogs, or exploring the city with friends.
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-8 text-xl sm:text-2xl md:text-3xl lg:text-5xl'>Olivia Sun, &apos;26</p>
-              <img className='drop-shadow-glow mx-auto w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-cover' src="/image/team/Olivia.png" alt="Olivia Sun" />
-              <p className='pt-5 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Olivia Sun, &apos;26</p>
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Olivia.png" alt="Olivia Sun" />
+              <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Olivia has a lot of passion for arts, Chinese literature, travelling, and big fluffy
                 dogs. She&apos;s trying out new things all the time.
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-8 text-xl sm:text-2xl md:text-3xl lg:text-5xl'>Charlotte Poch, &apos;26</p>
-              <img className='drop-shadow-glow mx-auto w-full h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-cover' src="/image/team/Charlotte.png" alt="Charlotte Poch" />
-              <p className='pt-5 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Charlotte Poch, &apos;26</p>
+              <img className='drop-shadow-glow mx-auto w-full h-2/3 object-cover rounded-lg' src="/image/team/Charlotte.png" alt="Charlotte Poch" />
+              <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Charlotte is passionate about travel and exploration and has an affinity for socialising. 
                 When she isn&apos;t on the hunt for new fashion to experiment with, you can find her cuddling with her dog while doing some
                 self-care.

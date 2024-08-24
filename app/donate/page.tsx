@@ -90,7 +90,7 @@ const donate = () => {
 
           <div className="bg-white mx-5 sm:mx-10 md:mx-20 rounded-lg font-Futura text-lg sm:text-xl md:text-2xl lg:text-3xl pb-10 p-8 text-gray-400">
             <p className="pb-4 font-Motley text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-pink-400 pt-4">Packs, Period.</p>
-            <p className="pb-4 pt-4">
+            <p className="pb-4 pt-4 text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light">
               Though we wholeheartedly believe in the power of conversation, we also recognise our responsibility to
               bring about concrete change for those who need it most. The treatment of refugees and asylum seekers in
               Hong Kong has been a longstanding issue, and access to period care is one of the many challenges they face.
@@ -99,11 +99,11 @@ const donate = () => {
               bleeding can pose difficulties in getting through our day; this is only exacerbated for the city’s
               non-refoulement claimants.
             </p>
-            <p className="pb-4">
+            <p className="pb-4 text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light">
               In September of 2023, we launched Packs, Period., a student-led extension of LUÜNA’s Empowered,
               Period. campaign, having gleaned the barriers preventing individuals from adequate period care.
             </p>
-            <p className="pb-4">
+            <p className="pb-4 text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light">
               Now, through various fundraising efforts, we supply refugees and asylum seekers with pads through
               community organisations around Hong Kong. In the beginning, we had hoped to sponsor 100 individuals
               with a year’s worth of period care, and, 9 months later, we succeeded. Packs, Period. also demonstrates our
@@ -112,10 +112,10 @@ const donate = () => {
             </p>
           </div>
 
-          <div className='flex justify-center pb-20 pt-20'>
+          <div className='flex justify-center pb-10 items-center pt-10'>
             <Link target="_blank" href="https://docs.google.com/forms/d/1YOB4Ca-i4aYitJscnk_hmo4RNWvNhkYCPYi3YL0mOCY/viewform?edit_requested=true">
-              <button className='bg-pink-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Futura hover:scale-110 rounded-lg p-5 border-4 border-white'>
-                DONATE NOW!
+              <button className='bg-gradient-to-r p-10 hover:scale-110 hover:shadow-lg font-Futura text-2xl sm:text-3xl lg:text-4xl shadow-md from-purple-300 to-blue-200 rounded-lg'>
+                Donate Now!
                 <p className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light'>Donations only available in Hong Kong*</p>
               </button>
             </Link>

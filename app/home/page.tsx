@@ -22,8 +22,8 @@ export default function Home() {
               <img className="h-full bg-repeat-y object-cover" src="/image/banner1.png" alt="Banner" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <p
-                  className="text-black p-4 bg-white opacity-90 text-xs sm:text-sm md:text-lg lg:text-3xl font-Futura font-bold">
-                  Empowering girls through conversation, education, and access to period care
+                  className="text-black p-4 bg-white opacity-90 text-xs sm:text-sm md:text-lg lg:text-2xl font-Futura ">
+                  Empowering girls through conversation, tuition, and access to period care, following the principles of interaction, education, and service.
                 </p>
               </div>
             </div>

@@ -70,6 +70,41 @@ const useOurwork = () => {
         ]
     }
 
+    const settings3 = {
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        arrows: true,
+        slidesToShow: 3, // Default to 3 slides for large screens
+        slidesToScroll: 1,
+        autoplay: true,
+        cssEase: "linear",
+        autoplaySpeed: 3500,
+        responsive: [
+          {
+            breakpoint: 1280, // Screens smaller than 1280px (large screens)
+            settings: {
+              slidesToShow: 2, // Show 2 slides
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 1024, // Screens smaller than 1024px (small desktops and tablets)
+            settings: {
+              slidesToShow: 1, // Show 1 slide
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 768, // Screens smaller than 768px (mobile and small tablets)
+            settings: {
+              slidesToShow: 1, // Show 1 slide
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      };
+
     return (
         <>
             <Navbar />
@@ -82,12 +117,26 @@ const useOurwork = () => {
                             </h1>
                         </div>
 
-                        <div className="relative text-center">
-                            <div className="border-8 border-white mx-5 mt-10">
-                                <img src="/image/banner2.png" alt="Banner" />
-                            </div>
+                         <div className="slider-container px-5 sm:px-10 md:px-20 pt-10 pb-12">
+            <Slider {...settings3}>
+              <div>
+                <img src="image/our-work/work1.png" className="w-full h-auto object-cover" alt="work Slide 1" />
+              </div>
+              <div>
+                <img src="image/our-work/work2.png" className="w-full h-auto object-cover" alt="work Slide 2" />
+              </div>
+              <div>
+                <img src="image/our-work/work3.png" className="w-full h-auto object-cover" alt="work Slide 3" />
+              </div>
+              <div>
+                <img src="image/our-work/work4.png" className="w-full h-auto object-cover" alt="work Slide 4" />
+              </div>
+              <div>
+                <img src="image/our-work/work5.png" className="w-full h-auto object-cover" alt="work Slide 5" />
+              </div>
+            </Slider>
 
-                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 mt-10 p-5">
                                 <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-pink-400 to-orange-300 flex flex-col justify-center items-center">
                                     <div className="text-left w-full">
                                         <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">36K</span>
@@ -212,7 +261,7 @@ const useOurwork = () => {
                                         </Slider>
                                     </div>
                                     <div className='text-center pt-4'>
-                                        3 lessons on:
+                                        4 lessons on:
                                     </div>
                                     <div className="text-center pt-3 pr-4 pl-4">
                                         <p className="pb-2">The Feminist Movement</p>
@@ -268,29 +317,29 @@ const useOurwork = () => {
     <div className='p-6 max-w-xs sm:max-w-md md:max-w-lg mx-auto'>
         <Slider {...settings}>
             <div>
-                <img src="/image/Interact/interact1.JPG" alt="Interact 1" className="w-full h-auto" />
+                <img src="/image/interact/interact1.png" alt="Interact 1" className="w-full h-auto" />
             </div>
             <div>
-                <img src="/image/Interact/interact2.png" alt="Interact 2" className="w-full h-auto" />
+                <img src="/image/interact/interact2.png" alt="Interact 2" className="w-full h-auto" />
             </div>
             <div>
-                <img src="/image/Interact/interact3.png" alt="Interact 3" className="w-full h-auto" />
+                <img src="/image/interact/interact3.png" alt="Interact 3" className="w-full h-auto" />
             </div>
             <div>
-                <img src="/image/Interact/interact4.JPG" alt="Interact 4" className="w-full h-auto" />
+                <img src="/image/interact/interact4.png" alt="Interact 4" className="w-full h-auto" />
             </div>
             <div>
-                <img src="/image/Interact/interact5.png" alt="Interact 5" className="w-full h-auto" />
+                <img src="/image/interact/interact5.png" alt="Interact 5" className="w-full h-auto" />
             </div>
             <div>
-                <img src="/image/Interact/interact6.JPG" alt="Interact 6" className="w-full h-auto" />
+                <img src="/image/interact/interact6.png" alt="Interact 6" className="w-full h-auto" />
             </div>
             <div>
-                <img src="/image/Interact/interact7.JPG" alt="Interact 7" className="w-full h-auto" />
+                <img src="/image/interact/interact7.png" alt="Interact 7" className="w-full h-auto" />
             </div>
         </Slider>
-        <h3 className='text-xl font-semibold text-pink-400 mb-5 text-center'>Interact</h3>
-        <p className='mb-5 text-black text-center'>
+        <h3 className='text-xl font-semibold text-pink-400 mt-8 mb-3 text-center'>Interact</h3>
+        <p className='mb-3 text-black text-center'>
             To communicate and connect with others.
         </p>
         <p className='mb-5 text-black text-center'>
@@ -301,12 +350,41 @@ const useOurwork = () => {
 </Modal>
 
             <Modal isvisible={showModal2} onClose={() => setShowModal2(false)}>
-                <div className='p-6'>
-                    <h3 className='text-xl font-semibold text-pink-400 mb-5'>Educate</h3>
-                    <p className='mb-5 text-black'>
+            <div className='p-6 max-w-xs sm:max-w-md md:max-w-lg mx-auto'>
+        <Slider {...settings}>
+            <div>
+                <img src="/image/educate/educate1.png" alt="Educate 1" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate2.png" alt="Educate 2" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate3.png" alt="Educate 3" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate4.png" alt="Educate 4" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate5.png" alt="Educate 5" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate6.png" alt="Educate 6" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate7.png" alt="Educate 7" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate8.png" alt="Educate 8" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/educate/educate9.png" alt="Educate 9" className="w-full h-auto" />
+            </div>
+        </Slider>
+                    <h3 className='text-xl font-semibold text-pink-400 mt-8 mb-3 text-center'>Educate</h3>
+                    <p className='mb-3 text-black text-center'>
                         To impart knowledge and cultivate understanding.
                     </p>
-                    <p className='mb-5 text-black'>
+                    <p className='mb-3 text-black text-center'>
                         Teaching lessons on the feminist movement, beauty standards, and representations of femininity in media,
                         guides on shaving and period care; hosting workshops on time management and interview preparation;
                         weekly tutoring room; installing Girl Talk bookshelves in school libraries; guest speeches.
@@ -315,12 +393,28 @@ const useOurwork = () => {
             </Modal>
 
             <Modal isvisible={showModal3} onClose={() => setShowModal3(false)}>
-                <div className='p-6'>
-                    <h3 className='text-xl font-semibold text-pink-400 mb-5'>Serve</h3>
-                    <p className='mb-5 text-black'>
+            <div className='p-6 max-w-xs sm:max-w-md md:max-w-lg mx-auto'>
+        <Slider {...settings}>
+            <div>
+                <img src="/image/serve/serve1.png" alt="Serve 1" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/serve/serve2.png" alt="Serve 2" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/serve/serve3.png" alt="Serve 3" className="w-full h-auto" />
+            </div>
+            <div>
+                <img src="/image/serve/serve4.png" alt="Serve 4" className="w-full h-auto" />
+            </div>
+
+           
+        </Slider>
+                    <h3 className='text-xl font-semibold text-pink-400 mt-8 mb-3 text-center'>Serve</h3>
+                    <p className='mb-3 text-black text-center'>
                         To help others.
                     </p>
-                    <p className='mb-5 text-black'>
+                    <p className='mb-3 text-black text-center'>
                         Hosting drives and fundraisers for charity partners; spreading awareness for issues affecting women and girls;
                         sponsoring refugees and asylum seekers with period care.
                     </p>

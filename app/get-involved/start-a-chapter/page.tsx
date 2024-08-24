@@ -65,7 +65,15 @@ const startachapter = () => {
             </div>
           </div>
 
-          <div className="slider-container px-5 sm:px-10 md:px-20 pt-10 pb-12">
+            <div className='flex justify-center pb-16 items-center pt-16'>
+            <Link target= "_blank" href="https://form.jotform.com/241916202365048">
+              <button className='bg-gradient-to-r p-10 hover:scale-110 hover:shadow-lg font-Futura text-2xl sm:text-3xl lg:text-4xl shadow-md from-purple-300 to-blue-200 rounded-lg'>
+                Complete our 40 min course!
+              </button>
+            </Link>
+          </div>
+
+          <div className="slider-container px-5 sm:px-10 md:px-20 pb-12">
             <Slider {...settings}>
               <div>
                 <img src="../image/sac/sac1.png" className="w-full h-auto object-cover" alt="Slide 1" />
@@ -91,59 +99,10 @@ const startachapter = () => {
           <div className="px-5 sm:px-10 md:px-20 font-Futura">
             <div className="text-center bg-pink-400 rounded-xl p-5 mb-10">
               <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
-                WHAT DO I GET IF I START A CHAPTER?
+               HOW DO I START A CHAPTER
               </p>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <p className="text-white text-base sm:text-lg lg:text-xl font-medium">
-                  Access to a Google folder with:
-                </p>
-                <ul className="list-disc list-inside text-white mt-3 text-sm sm:text-base lg:text-lg">
-                  <li>Our entire core curriculum</li>
-                  <li>Planning and organizing documents for your team</li>
-                  <li>Girl Talk graphics, fonts, vectors, and color swatches</li>
-                  <li>Merch (if applicable)</li>
-                </ul>
-              </div>
-
-              <div>
-                <p className="text-white text-base sm:text-lg lg:text-xl font-medium">
-                  Support from the executive team, including:
-                </p>
-                <ul className="list-disc list-inside text-white mt-3 text-sm sm:text-base lg:text-lg">
-                  <li>Meetings for advice upon request</li>
-                  <li>Monthly/annual Zoom meetings with all global leads</li>
-                  <li>Work and chapter leads featured on our website</li>
-                  <li>Chapter awards and opportunities</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="px-5 sm:px-10 md:px-20 font-Futura mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <div className="bg-pink-400 rounded-xl p-5 mb-5">
-                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
-                  WHAT DO I DO AS A CHAPTER LEAD?
-                </p>
-              </div>
-              <ul className="list-disc list-inside text-white text-sm sm:text-base lg:text-lg">
-                <li>Start a school club or arrange regular outside-of-school meetings</li>
-                <li>Meet with 5 or more members for at least 35 hours a year (3 times a month, 1 hour each meeting)</li>
-                <li>Alternate between our women&apos;s rights course, feminine hygiene guide, and conversation cards</li>
-                <li>Organize interaction, education, and service events</li>
-              </ul>
-            </div>
-
-            <div>
-              <div className="bg-pink-400 rounded-xl p-5 mb-5">
-                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
-                  HOW DO I START A CHAPTER?
-                </p>
-              </div>
-              <ul className="list-decimal list-inside text-white text-sm sm:text-base lg:text-lg">
+            <ul className="list-decimal list-inside text-white text-sm sm:text-xl lg:text-2xl">
                 <li>
                   Review chapter lead induction materials: Begin by watching our comprehensive chapter leader induction video to familiarize yourself with the responsibilities and expectations of the role.
                 </li>
@@ -157,18 +116,62 @@ const startachapter = () => {
                   Supply basic information: Complete the chapter leader application form by providing the necessary personal and contact details.
                 </li>
               </ul>
+          </div>
+
+          <div className="px-5 sm:px-10 md:px-20 font-Futura mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <div className="bg-pink-400 rounded-xl p-5 mb-5">
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
+                  WHAT DO I DO AS A CHAPTER LEAD?
+                </p>
+              </div>
+              <ul className="list-disc list-inside text-white text-sm sm:text-xl lg:text-2xl">
+                <li>Start a school club or arrange regular outside-of-school meetings</li>
+                <li>Meet with 5 or more members for at least 35 hours a year (3 times a month, 1 hour each meeting)</li>
+                <li>Alternate between our women&apos;s rights course, feminine hygiene guide, and conversation cards</li>
+                <li>Organize interaction, education, and service events</li>
+              </ul>
+            </div>
+
+            <div>
+              <div className="bg-pink-400 rounded-xl p-5 mb-5">
+                <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
+                  HOW DO I START A CHAPTER?
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <p className="text-white text-sm sm:text-xl lg:text-2xl">
+                  Access to a Google folder with:
+                </p>
+                <ul className="list-disc list-inside text-white mt-3 text-sm sm:text-xl lg:text-2xl">
+                  <li>Our entire core curriculum</li>
+                  <li>Planning and organizing documents for your team</li>
+                  <li>Girl Talk graphics, fonts, vectors, and color swatches</li>
+                  <li>Merch (if applicable)</li>
+                </ul>
+              </div>
+
+              <div>
+                <p className="text-white text-sm sm:text-xl lg:text-2xl">
+                  Support from the executive team, including:
+                </p>
+                <ul className="list-disc list-inside text-white mt-3 text-sm sm:text-xl lg:text-2xl">
+                  <li>Meetings for advice upon request</li>
+                  <li>Monthly/annual Zoom meetings with all global leads</li>
+                  <li>Work and chapter leads featured on our website</li>
+                  <li>Chapter awards and opportunities</li>
+                </ul>
+              </div>
+            </div>
+             
             </div>
           </div>
 
           <FAQ />
+          <div className='pb-16'></div>
 
-          <div className='flex justify-center pb-20 items-center pt-20'>
-            <Link href="/home">
-              <button className='bg-gradient-to-r p-10 hover:scale-110 hover:shadow-lg font-Futura text-2xl sm:text-3xl lg:text-4xl shadow-md from-purple-300 to-blue-200 rounded-lg'>
-                Start a Chapter Now!
-              </button>
-            </Link>
-          </div>
         </div>
       </main>
     
