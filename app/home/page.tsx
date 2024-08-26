@@ -9,6 +9,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 export default function Home() {
   const settings = {
     dots: true,
@@ -74,6 +75,11 @@ export default function Home() {
               </div>
             </Slider>
             </div>
+                <p
+                  className="font-Futura font-normal px-5 lg:px-40 text-sm sm:text-lg lg:text-2xl mb-5">
+                  Empowering girls through conversation, tuition, and access to period care, following the principles of interaction, education, and service.
+                </p>
+           
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
               <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-pink-400 to-orange-300 flex flex-col justify-center items-center">
