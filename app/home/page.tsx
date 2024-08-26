@@ -59,19 +59,34 @@ export default function Home() {
             <div className="slider-container px-5 sm:px-10 md:px-20 pt-10 pb-12">
             <Slider {...settings}>
               <div>
-                <img src="image/our-work/work1.png" className="w-full h-auto object-cover" alt="work Slide 1" />
+                <img src="image/home/no1.png" className="w-full h-auto object-cover" alt="home Slide 1" />
               </div>
               <div>
-                <img src="image/our-work/work2.png" className="w-full h-auto object-cover" alt="work Slide 2" />
+                <img src="image/home/no2.png" className="w-full h-auto object-cover" alt="home Slide 2" />
               </div>
               <div>
-                <img src="image/our-work/work3.png" className="w-full h-auto object-cover" alt="work Slide 3" />
+                <img src="image/home/no3.png" className="w-full h-auto object-cover" alt="home Slide 3" />
               </div>
               <div>
-                <img src="image/our-work/work4.png" className="w-full h-auto object-cover" alt="work Slide 4" />
+                <img src="image/home/no4.png" className="w-full h-auto object-cover" alt="home Slide 4" />
               </div>
               <div>
-                <img src="image/our-work/work5.png" className="w-full h-auto object-cover" alt="work Slide 5" />
+                <img src="image/home/no5.png" className="w-full h-auto object-cover" alt="home Slide 5" />
+              </div>
+              <div>
+                <img src="image/home/no6.png" className="w-full h-auto object-cover" alt="home Slide 6" />
+              </div>
+              <div>
+                <img src="image/home/no7.png" className="w-full h-auto object-cover" alt="home Slide 7" />
+              </div>
+              <div>
+                <img src="image/home/no8.png" className="w-full h-auto object-cover" alt="home Slide 8" />
+              </div>
+              <div>
+                <img src="image/home/no9.png" className="w-full h-auto object-cover" alt="home Slide 9" />
+              </div>
+              <div>
+                <img src="image/home/no10.png" className="w-full h-auto object-cover" alt="home Slide 10" />
               </div>
             </Slider>
             </div>
