@@ -135,8 +135,9 @@ const useOurwork = () => {
                 <img src="image/our-work/work5.png" className="w-full h-auto object-cover" alt="work Slide 5" />
               </div>
             </Slider>
+            </div>
 
-                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 mt-10 p-5">
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
                                 <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-pink-400 to-orange-300 flex flex-col justify-center items-center">
                                     <div className="text-left w-full">
                                         <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">36K</span>
@@ -181,6 +182,8 @@ const useOurwork = () => {
                                 </div>
                             </div>
 
+                
+
                             <div className="w-full size-auto mt-8 bg-white pb-5 pt-5">
                                 <div className="text-center md:text-6xl sm:text-5xl lg:text-7xl font-Boruna align-middle text-3xl text-pink-400">
                                     THE THREE PILLARS
@@ -195,7 +198,7 @@ const useOurwork = () => {
 
                             <p className="mb-5 lg:text-2xl sm:text-lg">Click on the icons above to learn more!</p>
 
-                        </div>
+
 
                         <div className="w-full size-auto mt-8 bg-white pb-5 pt-5">
                             <div id="corecurriculum" className="text-center font-Boruna align-middle md:text-6xl sm:text-5xl lg:text-7xl text-3xl text-pink-400">

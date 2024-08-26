@@ -5,8 +5,45 @@ import Navbar from "../components/Navbarhome";
 import Footer from "../components/Footer";
 import Modal from "../components/homemodal";
 import Link from "next/link";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    arrows: true,
+    slidesToShow: 3, // Default to 3 slides for large screens
+    slidesToScroll: 1,
+    autoplay: true,
+    cssEase: "linear",
+    autoplaySpeed: 3500,
+    responsive: [
+      {
+        breakpoint: 1280, // Screens smaller than 1280px (large screens)
+        settings: {
+          slidesToShow: 2, // Show 2 slides
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Screens smaller than 1024px (small desktops and tablets)
+        settings: {
+          slidesToShow: 1, // Show 1 slide
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768, // Screens smaller than 768px (mobile and small tablets)
+        settings: {
+          slidesToShow: 1, // Show 1 slide
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <>
@@ -18,14 +55,24 @@ export default function Home() {
               <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-Motley drop-shadow-glow text-white">Girl Talk Official</h1>
             </div>
 
-            <div className="relative border-8 border-white mt-10 mx-5">
-              <img className="h-full bg-repeat-y object-cover" src="/image/banner1.png" alt="Banner" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p
-                  className="text-black p-4 bg-white opacity-90 text-xs sm:text-sm md:text-lg lg:text-2xl font-Futura ">
-                  Empowering girls through conversation, tuition, and access to period care, following the principles of interaction, education, and service.
-                </p>
+            <div className="slider-container px-5 sm:px-10 md:px-20 pt-10 pb-12">
+            <Slider {...settings}>
+              <div>
+                <img src="image/our-work/work1.png" className="w-full h-auto object-cover" alt="work Slide 1" />
               </div>
+              <div>
+                <img src="image/our-work/work2.png" className="w-full h-auto object-cover" alt="work Slide 2" />
+              </div>
+              <div>
+                <img src="image/our-work/work3.png" className="w-full h-auto object-cover" alt="work Slide 3" />
+              </div>
+              <div>
+                <img src="image/our-work/work4.png" className="w-full h-auto object-cover" alt="work Slide 4" />
+              </div>
+              <div>
+                <img src="image/our-work/work5.png" className="w-full h-auto object-cover" alt="work Slide 5" />
+              </div>
+            </Slider>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 p-5">
