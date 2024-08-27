@@ -11,13 +11,14 @@ const Navbarhome: React.FC = () => {
       link: "/our-work",
     },
     {
-      name: "Our Chapter Presidents",
-      link: "/our-chapterpresidents",
-    },
-    {
       name: "Start a Chapter",
       link: "/get-involved/start-a-chapter",
     },
+    {
+      name: "Our Chapter Presidents",
+      link: "/our-chapterpresidents",
+    },
+    
     {
       name: "Donate",
       link: "/donate",

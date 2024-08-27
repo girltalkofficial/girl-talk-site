@@ -99,7 +99,7 @@ const startachapter = () => {
           <div className="px-5 sm:px-10 md:px-20 font-Futura">
             <div className="text-center bg-pink-400 rounded-xl p-5 mb-10">
               <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-Motley text-white">
-               HOW DO I START A CHAPTER
+               HOW DO I START A CHAPTER?
               </p>
             </div>
             <ul className="list-decimal list-inside text-white text-sm sm:text-xl lg:text-2xl">

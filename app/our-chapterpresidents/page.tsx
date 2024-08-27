@@ -28,7 +28,7 @@ const OurAdvocates: React.FC = () => {
           name: "Isabelle Mak",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Isabelle is a strong advocate for social justice and gender equality. She believes in the power of education and community to bring about change.",
-          contact: "maki2@stconline.edu.hk",
+          contact: "https://www.instagram.com/girltalk_stc/",
           insta: "girltalkshatin"
         },
         {
@@ -36,7 +36,7 @@ const OurAdvocates: React.FC = () => {
           name: "Christa Chen",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Christa is committed to creating a supportive environment for all girls, where they can freely express themselves and learn from one another.",
-          contact: "chenc23@stconline.edu.hk",
+          contact: "https://www.instagram.com/girltalk_stc/",
           insta: "girltalkshatin"
         },
         {
@@ -44,7 +44,7 @@ const OurAdvocates: React.FC = () => {
           name: "Chloe Chan",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Chloe is enthusiastic about promoting gender equality and providing resources for young women to succeed. She believes in the power of collective effort.",
-          contact: "chloechan2026@cdnis.edu.hk",
+          contact: "https://www.instagram.com/girltalkcdnis/",
           insta: "girltalkcdnis"
         },
         {
@@ -52,7 +52,7 @@ const OurAdvocates: React.FC = () => {
           name: "Summer-Sophie Guenot",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Summer-Sophie is passionate about empowering young women through education and community involvement. She is dedicated to making a positive impact.",
-          contact: "summerguenot2026@cdnis.edu.hk",
+          contact: "https://www.instagram.com/girltalkcdnis/",
           insta: "girltalkcdnis"
         },
       ],
@@ -65,7 +65,7 @@ const OurAdvocates: React.FC = () => {
           name: "Lilly Larard",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Lilly is committed to creating a supportive environment for all girls, encouraging them to pursue their passions and stand up for what they believe in.",
-          contact: "lillyl2027@student.cis.edu.hk",
+          contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
         },
         {
@@ -73,7 +73,7 @@ const OurAdvocates: React.FC = () => {
           name: "Kaitlyn Liu",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Kaitlyn is passionate about fostering a community where girls can support and uplift one another. She is always looking for ways to make a difference.",
-          contact: "kaitlynl227@student.cis.edu.hk",
+          contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
         },
         {
@@ -81,7 +81,7 @@ const OurAdvocates: React.FC = () => {
           name: "Monique Siu",
           image: "/image/chapterpresidents/Audrey.png",
           bio: "Monique is driven by a desire to see all girls succeed. She works hard to create opportunities for young women to learn, grow, and thrive.",
-          contact: "moniques2027@student.cis.edu.hk",
+          contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
         },
       ],
@@ -123,16 +123,16 @@ const OurAdvocates: React.FC = () => {
           name: "Maisha Mahbub",
           image: "/image/chapterpresidents/Amelie.jpg",
           bio: "Maisha is dedicated to empowering girls through education and community service. She believes in the power of collective action to bring about change.",
-          contact: "maishamahbub11@gmail.com",
-           insta: "girltalkseoul"
+          contact: "https://www.instagram.com/g1rltalktoronto/",
+           insta: "g1rltalktoronto"
         },
         {
           school: "Girl Talk Toronto",
           name: "Mahi Gohel",
           image: "/image/chapterpresidents/Amelie.jpg",
           bio: "Mahi is passionate about creating a supportive environment for young women to thrive. She is committed to promoting equality and justice.",
-          contact: "mahigohel20@gmail.com",
-           insta: "girltalkseoul"
+          contact: "https://www.instagram.com/g1rltalktoronto/",
+           insta: "g1rltalktoronto"
         },
       ],
     },
@@ -144,8 +144,8 @@ const OurAdvocates: React.FC = () => {
           name: "Saanvi Kantala",
           image: "/image/chapterpresidents/Amelie.jpg",
           bio: "Saanvi is focused on building a strong community of girls who support each other and work together to achieve their goals.",
-          contact: "saanvkantala@gmail.com",
-           insta: "girltalkseoul"
+          contact: "https://www.instagram.com/girltalk_phoenix/",
+           insta: "girltalk_pheonix"
         },
       ],
     },
