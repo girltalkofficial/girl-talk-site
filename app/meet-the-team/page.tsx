@@ -27,7 +27,7 @@ const abouttheteam = () => {
                   If anyone were to ask me why I started Girl Talk, I&apos;d give them the simple answer: When my 11-year-old
                   god-sister started asking me for advice about her friendships and fallouts, I realised that everything she had
                   cried, stressed, or fumed about, I had done the same before. I started thinking about this universal
-                  connection between girls, built on shared experiences, struggles, and feelings - and Girl Talk was born to
+                  connection between girls, built on shared experiences, struggles, and feelings — and Girl Talk was born to
                   actualise and give platform to that connection.
                 </p>
                 <p className="pb-4">
@@ -68,7 +68,7 @@ const abouttheteam = () => {
           
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 sm:px-10 md:px-20 py-10 text-center font-Futura'>
             <div className='col-span-1'>
-              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Adele Li, &apos;25</p>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Adele L. &apos;25</p>
               <img className='drop-shadow-glow mx-auto h-2/3 w-full  object-cover rounded-lg' src="/image/team/Adele.png" alt="Adele Li" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Adele is passionate about public speaking, feminist literature, and graphic design. In her free time, you
@@ -76,7 +76,7 @@ const abouttheteam = () => {
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Jasmine Haynes, &apos;25</p>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Jasmine H. &apos;25</p>
               <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Jasmine.jpg" alt="Jasmine Haynes" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Jasmine is interested in the performing arts, literature, and mental health. When she&apos;s not singing or
@@ -84,7 +84,7 @@ const abouttheteam = () => {
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Gigi Xiao, &apos;25</p>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Gigi X. &apos;25</p>
               <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Gigi.png" alt="Gigi Xiao" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
               Gigi Xiao has a keen interest in both economics and literature. 
@@ -101,7 +101,7 @@ const abouttheteam = () => {
 
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 sm:px-10 md:px-20 py-10 text-center font-Futura'>
             <div className='col-span-1'>
-              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Bernice Chan, &apos;26</p>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Bernice C. &apos;26</p>
               <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Bernice.png" alt="Bernice Chan" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 When Bernice isn&apos;t in the art room experimenting with new mediums, you can find her sewing with a 
@@ -109,7 +109,7 @@ const abouttheteam = () => {
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Olivia Sun, &apos;26</p>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Olivia S. &apos;26</p>
               <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Olivia.png" alt="Olivia Sun" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Olivia has a lot of passion for arts, Chinese literature, travelling, and big fluffy
@@ -117,7 +117,7 @@ const abouttheteam = () => {
               </p>
             </div>
             <div className='col-span-1'>
-              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Charlotte Poch, &apos;26</p>
+              <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Charlotte P. &apos;26</p>
               <img className='drop-shadow-glow mx-auto w-full h-2/3 object-cover rounded-lg' src="/image/team/Charlotte.png" alt="Charlotte Poch" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Charlotte is passionate about travel and exploration and has an affinity for socialising. 
