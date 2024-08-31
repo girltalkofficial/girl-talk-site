@@ -23,6 +23,7 @@ const Navbarhome: React.FC = () => {
       name: "Donate",
       link: "/donate",
     },
+    
     {
       name: "Meet The Team",
       link: "/meet-the-team",
@@ -35,6 +36,7 @@ const Navbarhome: React.FC = () => {
       name: "Get In Touch",
       link: "/get-in-touch",
     },
+    
   ];
 
   const toggleMenu = () => {

@@ -202,7 +202,7 @@ export default function Home() {
                   In recent years, the parameters around gender and sexuality have become more fluid in the public consciousness – a change that has allowed individuals across the world to express themselves freely and authentically. Plus, intersectional studies have revealed a need to consider factors such as gender identity when addressing sexism, rejecting a monolithic narrative of feminism. Why then, do we stick to the label of “girl”?
                 </p>
                 <p className="text-sm sm:text-xl lg:text-2xl mb-10">
-                  We recognise that gender is a social construct; so, our definition of “girl” is inclusive of any individual who identifies as a female, or aligns themselves with the aims and experiences of women, regardless of assigned sex at birth. To us, “girl” is unifying: it encapsulates our shared struggles and experiences, the basis upon which we can relate and empathise with each other. By instrumentalising girl talk as (literal) voices for change, we reclaim the label as a rallying point for female empowerment.
+                  We recognise that gender is a social construct; so, our definition of “girl” is inclusive of any individual who identifies as a female, or aligns themselves with the aims and experiences of women, regardless of assigned sex at birth. To us, “girl” is unifying: it encapsulates our shared struggles and experiences, the basis upon which we can relate and empathise with each other. By instrumentalising girl talk as (actual) voices for change, we reclaim the label as a rallying point for female empowerment.
                 </p>
               </div>
               <div className="col-span-1">
