@@ -28,6 +28,10 @@ const Navbarhome: React.FC = () => {
       link: "/meet-the-team",
     },
     {
+      name: "Blog",
+      link: "https://blogg1rltalk.wordpress.com",
+    },
+    {
       name: "Get In Touch",
       link: "/get-in-touch",
     },
