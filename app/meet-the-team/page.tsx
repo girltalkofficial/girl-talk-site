@@ -54,7 +54,7 @@ const abouttheteam = () => {
                   girl, a growing courage to face the ills of the world, one conversation at a time.
                 </p>
                 <p className="pb-4">
-                  - Adele Li 
+                  - Adele L. 
                 </p>
               </div>
             </Message>

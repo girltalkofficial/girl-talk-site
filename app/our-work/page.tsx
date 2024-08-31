@@ -167,7 +167,7 @@ const useOurwork = () => {
                                     </div>
                                     <div className="text-left w-full mt-4">
                                         <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">150</span>
-                                        <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">youth advocates</span>
+                                        <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">members</span>
                                     </div>
                                 </div>
 

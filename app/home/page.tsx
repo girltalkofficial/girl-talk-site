@@ -68,9 +68,6 @@ export default function Home() {
                 <img src="image/home/no3.png" className="w-full h-auto object-cover" alt="home Slide 3" />
               </div>
               <div>
-                <img src="image/home/no4.png" className="w-full h-auto object-cover" alt="home Slide 4" />
-              </div>
-              <div>
                 <img src="image/home/no5.png" className="w-full h-auto object-cover" alt="home Slide 5" />
               </div>
               <div>
@@ -126,7 +123,7 @@ export default function Home() {
                 </div>
                 <div className="text-left w-full mt-4">
                   <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">150</span>
-                  <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">youth advocates</span>
+                  <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">members</span>
                 </div>
               </div>
 
