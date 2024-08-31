@@ -17,45 +17,57 @@ const abouttheteam = () => {
             </div>
           </div>
           
-          <div className="mx-5 sm:mx-10 md:mx-20 mt-10 p-8 text-center bg-white rounded-lg hover:scale-105 transition-transform">
+          
+          <div className="mx-5 sm:mx-10 md:mx-20 mt-10 p-8 bg-white rounded-lg hover:scale-105 transition-transform">
             <Message>
-              <p className="font-Motley text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl pb-5 text-pink-400">
-                A MESSAGE FROM OUR FOUNDER
-              </p>
-              <div className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light">
-                <p className="pb-4">
-                  If anyone were to ask me why I started Girl Talk, I&apos;d give them the simple answer: When my 11-year-old
-                  god-sister started asking me for advice about her friendships and fallouts, I realised that everything she had
-                  cried, stressed, or fumed about, I had done the same before. I started thinking about this universal
-                  connection between girls, built on shared experiences, struggles, and feelings — and Girl Talk was born to
-                  actualise and give platform to that connection.
+              <div className="flex justify-center">
+                <p className="font-Motley text-2xl sm:text-3xl md:text-4xl lg:text-5xl pb-5 text-pink-400">
+                  A MESSAGE FROM OUR FOUNDER
                 </p>
-                <p className="pb-4">
-                  What I wouldn&apos;t answer — especially if we were short on time — is that much of it had to do with my
-                  perceived “failure” at being a feminist. During that time, I became hyper aware of the issues plaguing
-                  female-identifying individuals, my mind reeling when I stopped to think about the microaggressions,
-                  legislative barriers, and systemic inequities faced on a daily basis. But the concept of sexism — which I now
-                  understand as a complex, emotionally charged issue inexplicable in so few words — was too difficult for me
-                  to grasp. I just didn&apos;t know how to be a “good” feminist: I didn&apos;t have the academic trappings of the experts;
-                  didn&apos;t feel as though I had the intellectual or authoritative power to do anything about it.
-                </p>
-                <p className="pb-4">
-                  It took conversations with my godsister for me to realise that I had missed the mark completely. I&apos;d
-                  understood feminism as a battle between two parties — between women and the indomitable systems that
-                  were against us, some invisible fight that divided half of the global population. I thought that to advocate for
-                  women was to destroy those oppressors, to dismantle the patriarchy — something that I, a 15-year-old (or
-                  any one person, for that matter) couldn&apos;t do.
-                </p>
-                <p className="pb-4">
-                  With Girl Talk, our goal has always been to strengthen the bonds between girls, because we believe that the
-                  first step to fighting back is to build strength within ourselves and those around us. Throughout this
-                  journey, I&apos;ve learned that it was never about being a “perfect” feminist, never about having everything
-                  figured out. Now, in the quiet moments of connection, learning, and understanding, I feel, in each and every
-                  girl, a growing courage to face the ills of the world, one conversation at a time.
-                </p>
-                <p className="pb-4">
-                  - Adele L. 
-                </p>
+              </div>
+              <div className="flex flex-col lg:flex-row items-center lg:items-start">
+                <div className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light lg:w-2/3">
+                  <p className="pb-4">
+                    If anyone were to ask me why I started Girl Talk, I&apos;d give them the simple answer: When my 11-year-old
+                    god-sister started asking me for advice about her friendships and fallouts, I realised that everything she had
+                    cried, stressed, or fumed about, I had done the same before. I started thinking about this universal
+                    connection between girls, built on shared experiences, struggles, and feelings — and Girl Talk was born to
+                    actualise and give platform to that connection.
+                  </p>
+                  <p className="pb-4">
+                    What I wouldn&apos;t answer — especially if we were short on time — is that much of it had to do with my
+                    perceived “failure” at being a feminist. During that time, I became hyper aware of the issues plaguing
+                    female-identifying individuals, my mind reeling when I stopped to think about the microaggressions,
+                    legislative barriers, and systemic inequities faced on a daily basis. But the concept of sexism — which I now
+                    understand as a complex, emotionally charged issue inexplicable in so few words — was too difficult for me
+                    to grasp. I just didn&apos;t know how to be a “good” feminist: I didn&apos;t have the academic trappings of the experts;
+                    didn&apos;t feel as though I had the intellectual or authoritative power to do anything about it.
+                  </p>
+                  <p className="pb-4">
+                    It took conversations with my godsister for me to realise that I had missed the mark completely. I&apos;d
+                    understood feminism as a battle between two parties — between women and the indomitable systems that
+                    were against us, some invisible fight that divided half of the global population. I thought that to advocate for
+                    women was to destroy those oppressors, to dismantle the patriarchy — something that I, a 15-year-old (or
+                    any one person, for that matter) couldn&apos;t do.
+                  </p>
+                  <p className="pb-4">
+                    With Girl Talk, our goal has always been to strengthen the bonds between girls, because we believe that the
+                    first step to fighting back is to build strength within ourselves and those around us. Throughout this
+                    journey, I&apos;ve learned that it was never about being a “perfect” feminist, never about having everything
+                    figured out. Now, in the quiet moments of connection, learning, and understanding, I feel, in each and every
+                    girl, a growing courage to face the ills of the world, one conversation at a time.
+                  </p>
+                </div>
+                <div className="flex flex-col items-center lg:w-1/3">
+                  <img 
+                    className="w-full rounded-lg mt-5 lg:mt-0 lg:ml-8" 
+                    src="/image/team/Adele.png" 
+                    alt="Adele Image" 
+                  />
+                  <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light mt-4">
+                    - Adele L.
+                  </p>
+                </div>
               </div>
             </Message>
           </div>
@@ -85,7 +97,7 @@ const abouttheteam = () => {
             </div>
             <div className='col-span-1'>
               <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Gigi X. &apos;25</p>
-              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Gigi.png" alt="Gigi Xiao" />
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Gigi.jpg" alt="Gigi Xiao" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
               Gigi Xiao has a keen interest in both economics and literature. 
               Outside of school, she loves exploring new restaurants around the city or taking her two dogs on hikes.
