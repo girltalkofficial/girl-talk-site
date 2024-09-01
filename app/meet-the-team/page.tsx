@@ -89,7 +89,7 @@ const abouttheteam = () => {
             </div>
             <div className='col-span-1'>
               <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Jasmine H. &apos;25</p>
-              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/Jasmine.jpg" alt="Jasmine Haynes" />
+              <img className='drop-shadow-glow mx-auto h-2/3 w-full object-cover rounded-lg' src="/image/team/jasmine.png" alt="Jasmine Haynes" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Jasmine is interested in the performing arts, literature, and mental health. When she&apos;s not singing or
                 dancing, she&apos;ll be enjoying her free time with family and friends.
