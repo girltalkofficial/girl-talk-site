@@ -58,13 +58,13 @@ const abouttheteam = () => {
                     girl, a growing courage to face the ills of the world, one conversation at a time.
                   </p>
                 </div>
-                <div className="flex flex-col items-center lg:w-1/3">
+                <div className="flex flex-col items-center lg:w-1/4 w-1/2">
                   <img 
                     className="w-full rounded-lg mt-5 lg:mt-0 lg:ml-8" 
                     src="/image/team/Adele.png" 
                     alt="Adele Image" 
                   />
-                  <p className="text-gray-400 text-sm sm:text-base md:text-lg lg:text-xl font-Futura font-light mt-4">
+                  <p className="text-gray-400 text-sm  sm:text-base md:text-lg lg:text-xl font-Futura font-light mt-4">
                     - Adele L.
                   </p>
                 </div>

@@ -18,7 +18,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk KGV",
           name: "Audrey L.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/audrey.jpg",
           bio: "Audrey is a Y12 student at KGV who’s favourite artist is Coldplay. A strange fact about her is that she finds insects cool. She wants to join Girl Talk to form a tight knit community within her school that can help empower younger girls and provoke a sense of belonging.",
           contact: "https://www.instagram.com/girltalkkgv/",
           insta: "girltalkkgv"
@@ -26,7 +26,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk Sha Tin College",
           name: "Isabelle M.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Isabelle is a strong advocate for social justice and gender equality. She believes in the power of education and community to bring about change.",
           contact: "https://www.instagram.com/girltalk_stc/",
           insta: "girltalkshatin"
@@ -34,7 +34,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk Sha Tin College",
           name: "Christa C.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Christa is committed to creating a supportive environment for all girls, where they can freely express themselves and learn from one another.",
           contact: "https://www.instagram.com/girltalk_stc/",
           insta: "girltalkshatin"
@@ -42,7 +42,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk CDNIS",
           name: "Chloe C.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Chloe is enthusiastic about promoting gender equality and providing resources for young women to succeed. She believes in the power of collective effort.",
           contact: "https://www.instagram.com/girltalkcdnis/",
           insta: "girltalkcdnis"
@@ -50,7 +50,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk CDNIS",
           name: "Summer-Sophie G.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Summer-Sophie is passionate about empowering young women through education and community involvement. She is dedicated to making a positive impact.",
           contact: "https://www.instagram.com/girltalkcdnis/",
           insta: "girltalkcdnis"
@@ -63,7 +63,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk CISHZ",
           name: "Lilly L.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Lilly is committed to creating a supportive environment for all girls, encouraging them to pursue their passions and stand up for what they believe in.",
           contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
@@ -71,7 +71,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk CISHZ",
           name: "Kaitlyn L.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Kaitlyn is passionate about fostering a community where girls can support and uplift one another. She is always looking for ways to make a difference.",
           contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
@@ -79,7 +79,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk CISHZ",
           name: "Monique S.",
-          image: "/image/chapterpresidents/Audrey.png",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Monique is driven by a desire to see all girls succeed. She works hard to create opportunities for young women to learn, grow, and thrive.",
           contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
@@ -121,7 +121,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk Toronto",
           name: "Mahi G.",
-          image: "/image/chapterpresidents/Amelie.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Mahi is passionate about creating a supportive environment for young women to thrive. She is committed to promoting equality and justice.",
           contact: "https://www.instagram.com/g1rltalktoronto/",
            insta: "g1rltalktoronto"
@@ -134,7 +134,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk Phoenix",
           name: "Saanvi K.",
-          image: "/image/chapterpresidents/Amelie.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Saanvi is focused on building a strong community of girls who support each other and work together to achieve their goals.",
           contact: "https://www.instagram.com/girltalk_phoenix/",
            insta: "girltalk_pheonix"
