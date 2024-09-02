@@ -10,7 +10,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk KGV",
           name: "Amelie S.",
-          image: "/image/chapterpresidents/Amelie.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Amelie is a Y12 student at KGV who’s favourite song is Iris by the Goo Goo Dolls. A strange fact about her is that despite being extremely clumsy and dropping things all the time, she has the talent of not breaking things. She wants to join Girl Talk because she loves wholesome girl moments and wants to build a chapter within our school that will serve as an inclusive and empowering community amongst girls.",
           contact: "https://www.instagram.com/girltalkkgv/",
           insta: "girltalkkgv"
@@ -18,7 +18,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk KGV",
           name: "Audrey L.",
-          image: "/image/chapterpresidents/audrey.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Audrey is a Y12 student at KGV who’s favourite artist is Coldplay. A strange fact about her is that she finds insects cool. She wants to join Girl Talk to form a tight knit community within her school that can help empower younger girls and provoke a sense of belonging.",
           contact: "https://www.instagram.com/girltalkkgv/",
           insta: "girltalkkgv"
@@ -92,7 +92,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk YISS",
           name: "Michelle K.",
-          image: "/image/chapterpresidents/Michelle.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Michelle Ko is a senior at YISS. You could probably find her baking, singing, or being with her friends. She wants to give a shoutout to Michelle Obama for being her much more girlboss and impressive name twin. She's super excited to be a chapter lead for Girl Talk and hopes to represent its cause as well as possible!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
