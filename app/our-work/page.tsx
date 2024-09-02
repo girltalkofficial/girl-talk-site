@@ -123,9 +123,6 @@ const useOurwork = () => {
                 <img src="image/our-work/work1.png" className="w-full h-auto object-cover" alt="work Slide 1" />
               </div>
               <div>
-                <img src="image/our-work/work2.png" className="w-full h-auto object-cover" alt="work Slide 2" />
-              </div>
-              <div>
                 <img src="image/our-work/work3.png" className="w-full h-auto object-cover" alt="work Slide 3" />
               </div>
               <div>
