@@ -178,9 +178,9 @@ export default function Home() {
                   <div className="text-sm sm:text-xl lg:text-3xl font-Futura">Learn More</div>
                 </div>
               </Link>
-              <Link href="/news">
+              <Link href="https://girltalkofficial.wordpress.com">
                 <div className="col-span-1 rounded-3xl shadow-lg hover:scale-105 p-5 content-center bg-gradient-to-r from-blue-200 to-green-200">
-                  <div className="text-lg sm:text-3xl lg:text-5xl font-Motley">News</div>
+                  <div className="text-lg sm:text-3xl lg:text-5xl font-Motley">Blog</div>
                   <div className="text-sm sm:text-xl lg:text-3xl font-Futura">Learn More</div>
                 </div>
               </Link>

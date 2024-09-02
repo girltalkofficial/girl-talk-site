@@ -100,7 +100,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk YISS",
           name: "Brooke L.",
-          image: "/image/chapterpresidents/Brooke.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Brooke Lai is a junior at YISS. She is passionate about history, theater, art/design, and social justice. In her free time, you can find her listening to Frank Ocean, re-watching 2000s chick flicks, trying new restaurants on @byhleats, or in a bookstore. She can't wait to continue Girl Talk's impact in Korea!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
@@ -108,7 +108,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk YISS",
           name: "Kaiden H.",
-          image: "/image/chapterpresidents/Kaiden.jpg",
+          image: "/image/chapterpresidents/profile.jpg",
           bio: "Kaiden Holst is a junior at YISS. She is passionate about social justice, the humanities, and the environment. You can probably find her doing NYT word games, playing with her dog, or spending time with friends. She is so excited to be a chapter lead for Girl Talk, and can't wait to further its impact in Seoul!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
