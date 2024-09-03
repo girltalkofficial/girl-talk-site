@@ -331,12 +331,6 @@ const useOurwork = () => {
             <div>
                 <img src="/image/interact/interact5.png" alt="Interact 5" className="w-full h-auto" />
             </div>
-            <div>
-                <img src="/image/interact/interact6.png" alt="Interact 6" className="w-full h-auto" />
-            </div>
-            <div>
-                <img src="/image/interact/interact7.png" alt="Interact 7" className="w-full h-auto" />
-            </div>
         </Slider>
         <h3 className='text-xl font-semibold text-pink-400 mt-8 mb-3 text-center'>Interact</h3>
         <p className='mb-3 text-black text-center'>
