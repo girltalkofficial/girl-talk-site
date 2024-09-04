@@ -130,7 +130,7 @@ const abouttheteam = () => {
             </div>
             <div className='col-span-1'>
               <p className='pb-4 text-2xl sm:text-2xl md:text-2xl lg:text-2xl'>Charlotte P. &apos;26</p>
-              <img className='drop-shadow-glow mx-auto w-full h-2/3 object-cover rounded-lg' src="/image/team/Charlotte.png" alt="Charlotte Poch" />
+              <img className='drop-shadow-glow mx-auto w-full h-2/3 object-cover rounded-lg' src="/image/team/charlotte.jpg" alt="Charlotte Poch" />
               <p className='pt-4 pb-5 text-sm sm:text-base md:text-lg lg:text-2xl'>
                 Charlotte is passionate about travel and exploration and has an affinity for socialising. 
                 When she isn&apos;t on the hunt for new fashion to experiment with, you can find her cuddling with her dog while doing some
