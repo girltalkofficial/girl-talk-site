@@ -92,7 +92,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk YISS",
           name: "Michelle K.",
-          image: "/image/chapterpresidents/profile.jpg",
+          image: "/image/chapterpresidents/Michelle.jpg",
           bio: "Michelle Ko is a senior at YISS. You could probably find her baking, singing, or being with her friends. She wants to give a shoutout to Michelle Obama for being her much more girlboss and impressive name twin. She's super excited to be a chapter lead for Girl Talk and hopes to represent its cause as well as possible!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
@@ -100,7 +100,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk YISS",
           name: "Brooke L.",
-          image: "/image/chapterpresidents/profile.jpg",
+          image: "/image/chapterpresidents/Brooke.jpg",
           bio: "Brooke Lai is a junior at YISS. She is passionate about history, theater, art/design, and social justice. In her free time, you can find her listening to Frank Ocean, re-watching 2000s chick flicks, trying new restaurants on @byhleats, or in a bookstore. She can't wait to continue Girl Talk's impact in Korea!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
@@ -108,7 +108,7 @@ const OurAdvocates: React.FC = () => {
         {
           school: "Girl Talk YISS",
           name: "Kaiden H.",
-          image: "/image/chapterpresidents/profile.jpg",
+          image: "/image/chapterpresidents/Kaiden.jpg",
           bio: "Kaiden Holst is a junior at YISS. She is passionate about social justice, the humanities, and the environment. You can probably find her doing NYT word games, playing with her dog, or spending time with friends. She is so excited to be a chapter lead for Girl Talk, and can't wait to further its impact in Seoul!",
           contact: "https://www.instagram.com/girltalkseoul/",
           insta: "girltalkseoul"
@@ -138,6 +138,35 @@ const OurAdvocates: React.FC = () => {
           bio: "Saanvi is focused on building a strong community of girls who support each other and work together to achieve their goals.",
           contact: "https://www.instagram.com/girltalk_phoenix/",
            insta: "girltalk_pheonix"
+        },
+      ],
+    },
+    {
+      country: "Indonesia",
+      presidents: [
+        {
+          school: "Girl Talk Jakarta",
+          name: "Stella Moira A.",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Stella's favorite movie is currently Spiderman: Across the Spider-Verse. A weird fact about her is she only has one pair of shoes, and they are colored bright neon yellow. The reason she chose to join Girl Talk is because she believes that girls should be able to be educated and feel confident about themselves, and she strives to provide that opportunity to girls in her area.",
+          contact: "https://www.instagram.com/girltalk_jakarta/",
+          insta: "girltalk_jakarta"
+        },
+        {
+          school: "Girl Talk Jakarta",
+          name: "Eileen Y.",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Eileen's all time favorite show is Modern Family. A weird fact about her is that she's allergic to the sun… and the reason why she joined Girl Talk is because she really wants to create a supportive space for girls to ask and share their experiences.",
+          contact: "https://www.instagram.com/girltalk_jakarta/",
+          insta: "girltalk_jakarta"
+        },
+        {
+          school: "Girl Talk Jakarta",
+          name: "Gyumin (Erin) K.",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Erin's favorite book right now is a memoir called “This is going to hurt” by Adam Kay. A weird fact about her is that she loves pineapple on pizza, and the reason she joined Girl Talk is because she's really interested in promoting equal opportunities for girls in education.",
+          contact: "https://www.instagram.com/girltalk_jakarta/",
+          insta: "girltalk_jakarta"
         },
       ],
     },
