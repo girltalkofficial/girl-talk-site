@@ -107,8 +107,8 @@ export default function Home() {
 
               <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-orange-300 to-green-200 flex flex-col justify-center items-center">
                 <div className="text-left w-full">
-                  <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">8</span>
-                  <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">countries across</span>
+                  <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">12</span>
+                  <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">cities across</span>
                 </div>
                 <div className="text-left w-full mt-4">
                   <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">4</span>
@@ -118,11 +118,11 @@ export default function Home() {
 
               <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-green-200 to-blue-200 flex flex-col justify-center items-center">
                 <div className="text-left w-full">
-                  <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">12</span>
+                  <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">15</span>
                   <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">global youth chapters</span>
                 </div>
                 <div className="text-left w-full mt-4">
-                  <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">150</span>
+                  <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">300</span>
                   <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">members</span>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
 
             <div className="font-Futura font-normal px-5 lg:px-20 py-5">
               <p className="text-sm sm:text-lg lg:text-2xl mb-5">
-                Girl Talk is a Hong Kong based student-led organisation dedicated to empowering girls through the principles of interaction, education, and service. Our core belief? That “girl talk” is more than trivial conversation. That moments of connection and understanding between girls build the strength needed to fight back. We champion this belief by teaching our core curriculum, complete with a women&apos;s history course, beginner guides to feminine hygiene, and 100 conversation cards for teens, in chapters across the world. Here in Hong Kong, we provide period care to those in need, working with LUÜNA — a women-led, B Corp-certified period care company — to supply refugees with pads year-round. Because it&apos;s never just girl talk: it&apos;s creating a network of educated, like-minded, and community-service-oriented advocates determined to change the world — one conversation at a time.
+                Girl Talk is a Hong Kong based student-led organisation dedicated to empowering girls through the principles of interaction, education, and service. Founded in 2022, our mission is to empower teen girls through our Body, Mind, and Soul core curriculum, and build platforms allowing girls around the world to interact with each other and serve their communities. Our core belief? That “girl talk” is more than trivial conversation. That moments of connection and understanding between girls build the strength needed to fight back. We champion this belief by teaching our core curriculum, complete with a women&apos;s history course, beginner guides to feminine hygiene, and 100 conversation cards for teens, in chapters across the world. Here in Hong Kong, we provide period care to those in need, working with LUÜNA — a women-led, B Corp-certified period care company — to supply refugees with pads year-round. Because it&apos;s never just girl talk: it&apos;s creating a network of educated, like-minded, and community-service-oriented advocates determined to change the world — one conversation at a time.
               </p>
             </div>
 
@@ -192,6 +192,15 @@ export default function Home() {
               </div>
             </div>
 
+            <div className="grid gap-5 grid-cols-1 sm:grid-cols-1 px-5 sm:px-10 pt-10 pb-3 font-Futura font-normal">
+             <div className="col-span-1">
+                <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Our Misson</p>
+                <p className="text-sm sm:text-xl lg:text-2xl mb-5">
+                Our mission is to empower teen girls through our Body, Mind, and Soul core curriculum, and build platforms allowing girls around the world to interact with each other and serve their communities.
+                </p>
+              </div>
+            </div>
+
             <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 px-5 sm:px-10 pt-10 pb-3 font-Futura font-normal">
               <div className="col-span-1">
                 <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Why Girl?</p>
@@ -205,7 +214,7 @@ export default function Home() {
               <div className="col-span-1">
                 <p className="text-xl sm:text-3xl lg:text-5xl mb-5 font-Motley font-normal">Our Story</p>
                 <p className="text-sm sm:text-xl lg:text-2xl mb-5">
-                  Girl Talk started as a small, student-led club at Chinese International School, Hong Kong, on November 17th, 2022. Our first club meeting? Yielded a total of 3 attendees. Over the years, we grew into a family of 15, aged 12-14, and an executive team of 6. Though our club has stayed small and tight-knit, our outreach doesn&apos;t end there; we frequently organise fundraisers and events for the wider school community to involve those without the chance to join our meetings.
+                  Girl Talk started as a small, student-led club at Chinese International School, Hong Kong, on November 17th, 2022. Our first club meeting? Yielded a total of 3 attendees. Over the years, we grew into a family of 15, aged 12-14, and an executive team of 6. Though our club has stayed small and tight-knit, our outreach doesn&apos;t end there; we frequently organise fundraisers and events for the wider school community to involve those without the chance to join our meetings. Fast forward 2 more years, and there are 300+ students in 15 chapters across 12 cities and states in 8 countries, including Jakarta, Beijing, Hangzhou, Shanghai, New Delhi, Brisbane, London, Florida, Arizona, Toronto, and Seoul. 
                 </p>
               </div>
             </div>

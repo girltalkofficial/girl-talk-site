@@ -148,8 +148,8 @@ const useOurwork = () => {
 
                                 <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-orange-300 to-green-200 flex flex-col justify-center items-center">
                                     <div className="text-left w-full">
-                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">8</span>
-                                        <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">countries across</span>
+                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">12</span>
+                                        <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">cities across</span>
                                     </div>
                                     <div className="text-left w-full mt-4">
                                         <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">4</span>
@@ -159,11 +159,11 @@ const useOurwork = () => {
 
                                 <div className="col-span-1 rounded-3xl p-5 shadow-lg bg-gradient-to-r from-green-200 to-blue-200 flex flex-col justify-center items-center">
                                     <div className="text-left w-full">
-                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">12</span>
+                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">15</span>
                                         <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">global youth chapters</span>
                                     </div>
                                     <div className="text-left w-full mt-4">
-                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">150</span>
+                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">300</span>
                                         <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">members</span>
                                     </div>
                                 </div>
