@@ -84,6 +84,20 @@ const OurAdvocates: React.FC = () => {
           contact: "https://www.instagram.com/girltalkcishz/",
           insta: "girltalkcishz"
         },
+        {
+          school: "Girl Talk Shanghai",
+          name: "Sophia G.",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Sophia has an extensive list of favorite movies, but if she were to give her top 3 it would probably consist of Juno, Pitch Perfect, and Booksmart. Outside of Girl Talk, she plays rugby and football, and does costuming for her school’s theater productions. She joined Girl Talk because she felt her school was missing a student-led safe space for girls. She's really looking forward to this year with Girl Talk!",
+          contact: "https://www.instagram.com/g1rltalk.shanghai/",
+          insta: "g1rltalk.shanghai"
+        },
+        {
+          school: "Girl Talk Beijing",
+          name: "Angelina D.",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Angelina absolutely loves jazz and musicals! Laufey is her all-time favorite singer. She's also gone through her own struggles with an eating disorder. Now she's focusing on her passions—public speaking, feminism, and psychology. She really hopes to make a positive impact with them!",
+        },
       ],
     },
     {
