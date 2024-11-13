@@ -152,8 +152,8 @@ const useOurwork = () => {
                                         <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">cities across</span>
                                     </div>
                                     <div className="text-left w-full mt-4">
-                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">4</span>
-                                        <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">continents</span>
+                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">8</span>
+                                        <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">countries</span>
                                     </div>
                                 </div>
 
