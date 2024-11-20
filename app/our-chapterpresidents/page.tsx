@@ -93,6 +93,14 @@ const OurAdvocates: React.FC = () => {
           insta: "g1rltalk.shanghai"
         },
         {
+          school: "Girl Talk Shanghai",
+          name: "Caridee C.",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "From the debate podium to the karaoke booth, Caridee enjoys using her voice. In her free time, Caridee enjoys making puns, taekwondo, and feeding stray cats. She joined Girl Talk because she believes that mentorship through sisterhood is one of the most powerful bonds people can share, and wants to bring more sincerity to the feminist discourse on campus. ",
+          contact: "https://www.instagram.com/g1rltalk.shanghai/",
+          insta: "g1rltalk.shanghai"
+        },
+        {
           school: "Girl Talk Beijing",
           name: "Angelina D.",
           image: "/image/chapterpresidents/profile.jpg",
