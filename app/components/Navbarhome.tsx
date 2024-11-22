@@ -30,7 +30,7 @@ const Navbarhome: React.FC = () => {
     },
     {
       name: "Blog",
-      link: "https://girltalkofficial.wordpress.com",
+      link: "https://girl-talk2.wixsite.com/girl-talk-blog",
     },
     {
       name: "Get In Touch",
