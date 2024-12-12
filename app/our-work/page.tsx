@@ -119,17 +119,44 @@ const useOurwork = () => {
 
                          <div className="slider-container px-5 sm:px-10 md:px-20 pt-10 pb-12">
             <Slider {...settings3}>
-              <div>
-                <img src="image/our-work/work1.png" className="w-full h-auto object-cover" alt="work Slide 1" />
+            <div>
+                <img src="image/our-work/no1.png" className="w-full h-auto object-cover" alt="work Slide 1" />
               </div>
               <div>
-                <img src="image/our-work/work3.png" className="w-full h-auto object-cover" alt="work Slide 3" />
+                <img src="image/our-work/no2.png" className="w-full h-auto object-cover" alt="work Slide 2" />
               </div>
               <div>
-                <img src="image/our-work/work4.png" className="w-full h-auto object-cover" alt="work Slide 4" />
+                <img src="image/our-work/no3.png" className="w-full h-auto object-cover" alt="work Slide 3" />
               </div>
               <div>
-                <img src="image/our-work/work5.png" className="w-full h-auto object-cover" alt="work Slide 5" />
+                <img src="image/our-work/no5.png" className="w-full h-auto object-cover" alt="work Slide 5" />
+              </div>
+              <div>
+                <img src="image/our-work/no6.png" className="w-full h-auto object-cover" alt="work Slide 6" />
+              </div>
+              <div>
+                <img src="image/our-work/no7.png" className="w-full h-auto object-cover" alt="work Slide 7" />
+              </div>
+              <div>
+                <img src="image/our-work/no8.png" className="w-full h-auto object-cover" alt="work Slide 8" />
+              </div>
+              <div>
+                <img src="image/our-work/no9.png" className="w-full h-auto object-cover" alt="work Slide 9" />
+              </div>
+              <div>
+                <img src="image/our-work/no10.png" className="w-full h-auto object-cover" alt="work Slide 10" />
+              </div>
+              <div>
+                <img src="image/our-work/work11.png" className="w-full h-auto object-cover" alt="work Slide 11" />
+              </div>
+              <div>
+                <img src="image/our-work/work13.png" className="w-full h-auto object-cover" alt="work Slide 13" />
+              </div>
+              <div>
+                <img src="image/our-work/work14.png" className="w-full h-auto object-cover" alt="work Slide 14" />
+              </div>
+              <div>
+                <img src="image/our-work/work15.png" className="w-full h-auto object-cover" alt="work Slide 15" />
               </div>
             </Slider>
             </div>
