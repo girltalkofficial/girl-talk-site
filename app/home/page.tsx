@@ -8,7 +8,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import ReactPlayer from 'react-player'
 
 export default function Home() {
   const settings = {
@@ -54,38 +54,13 @@ export default function Home() {
           <div className="bg-stars">
             <div className="pt-7">
               <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-Motley drop-shadow-glow text-white">Girl Talk Official</h1>
-            </div>
 
-            <div className="slider-container px-5 sm:px-10 md:px-20 pt-10 pb-12">
-            <Slider {...settings}>
-              <div>
-                <img src="image/home/no1.png" className="w-full h-auto object-cover" alt="home Slide 1" />
-              </div>
-              <div>
-                <img src="image/home/no2.png" className="w-full h-auto object-cover" alt="home Slide 2" />
-              </div>
-              <div>
-                <img src="image/home/no3.png" className="w-full h-auto object-cover" alt="home Slide 3" />
-              </div>
-              <div>
-                <img src="image/home/no5.png" className="w-full h-auto object-cover" alt="home Slide 5" />
-              </div>
-              <div>
-                <img src="image/home/no6.png" className="w-full h-auto object-cover" alt="home Slide 6" />
-              </div>
-              <div>
-                <img src="image/home/no7.png" className="w-full h-auto object-cover" alt="home Slide 7" />
-              </div>
-              <div>
-                <img src="image/home/no8.png" className="w-full h-auto object-cover" alt="home Slide 8" />
-              </div>
-              <div>
-                <img src="image/home/no9.png" className="w-full h-auto object-cover" alt="home Slide 9" />
-              </div>
-              <div>
-                <img src="image/home/no10.png" className="w-full h-auto object-cover" alt="home Slide 10" />
-              </div>
-            </Slider>
+       <div className="p-10 place-items-center">    
+        <div>
+         <ReactPlayer url='https://youtu.be/W5Nr9gM-jGY' />
+        </div>
+       </div>
+    
             </div>
                 <p
                   className="font-Futura font-normal px-5 lg:px-40 text-sm sm:text-lg lg:text-2xl mb-5">
