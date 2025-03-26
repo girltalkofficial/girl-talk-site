@@ -161,6 +161,30 @@ const OurAdvocates: React.FC = () => {
           contact: "https://www.instagram.com/girltalk_phoenix/",
            insta: "girltalk_pheonix"
         },
+        {
+          school: "Girl Talk Miami",
+          name: "Sam",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Sam's favorite song is 'Pink Pony Club' by Chappell Roan and her favorite book right now is The Seven Husbands of Evelyn Hugo. A fun fact about her is that she's obsessed with putting every single movie she sees into her Letterboxd account and the reason she joined Girl Talk was because creating a tight-knit community that can educate each other through our their lived experiences is something important to her.",
+          contact: "https://www.instagram.com/girltalkmiami_305/",
+           insta: "girltalkmiami_305"
+        },
+        {
+          school: "Girl Talk Miami",
+          name: "Andrea",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Andrea's favorite song is 'Guess' by Charli XCX and her favorite book is Romeo and Juliet. A fun fact about her is that she doesn't get the appeal of Pinterest and the reason she joined Girl Talk was to help the next generation of women find their voice in society.",
+          contact: "https://www.instagram.com/girltalkmiami_305/",
+           insta: "girltalkmiami_305"
+        },
+        {
+          school: "Girl Talk Miami",
+          name: "Elizabeth",
+          image: "/image/chapterpresidents/profile.jpg",
+          bio: "Elizabeth's favorite song is 'Don't Know Why' by Norah Jones and her favorite book is Pride and Prejudice, a fun fact about her is that she doesn't like marshmallows and the reason she joined Girl Talk was because she loves talking to the girls around her in her community and finding the importance in education through communication.",
+          contact: "https://www.instagram.com/girltalkmiami_305/",
+           insta: "girltalkmiami_305"
+        },
       ],
     },
     {
