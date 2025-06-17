@@ -74,7 +74,7 @@ const abouttheteam = () => {
 
           <div className="w-full mt-12 bg-white pb-5 pt-5">
             <div className="text-center font-Boruna text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-pink-400">
-              SENIOR EXECUTIVE
+              THE FOUNDING TEAM
             </div>
           </div>
           
@@ -107,7 +107,7 @@ const abouttheteam = () => {
 
           <div className="w-full mt-10 bg-white pb-5 pt-5">
             <div className="text-center font-Boruna text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-pink-400">
-              JUNIOR EXECUTIVE
+              SENIOR EXECUTIVE
             </div>
           </div>
 
