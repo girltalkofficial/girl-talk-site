@@ -168,7 +168,7 @@ const useOurwork = () => {
                                         <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">pads funded</span>
                                     </div>
                                     <div className="text-left w-full mt-4">
-                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">50K</span>
+                                        <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-Motley">75K</span>
                                         <span className="text-sm sm:text-xl lg:text-3xl font-Futura block">HKD raised</span>
                                     </div>
                                 </div>
